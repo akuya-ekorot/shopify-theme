@@ -3,6 +3,8 @@
 
 <ul>
   {% for name in array %}
-    <li>{{ name }}</li>
+  	{% if name.size < 4 %}
+    	<li>{{ name }}</li>
+  	{% endif %}
   {% endfor %}
 </ul>
