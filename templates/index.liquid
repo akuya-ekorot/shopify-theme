@@ -9,7 +9,7 @@
 <section class="product-grid">
   {% for product in collections.all.products %}
   
-  	<a class="product" href="#">
+  	<a class="product" href="{{ product.url }}">
       <div>
         <img
              src="{{ product | image_url: width: 300 }}"
