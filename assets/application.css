@@ -48,8 +48,8 @@ a {
 .product-details {
   position: absolute;
   top: 0;
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +58,7 @@ a {
   transition: 0.5s;
   opacity: 0;
   gap: 15px;
+  padding: 15px;
 }
 
 .product div:hover .product-details {
