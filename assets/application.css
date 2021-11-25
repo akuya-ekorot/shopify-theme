@@ -150,6 +150,10 @@ a {
   padding: 5px;
 }
 
+.product-action-container select option {
+  padding: 5px;
+}
+
 .product-quantity {
   display: flex;
   flex-direction: column;
