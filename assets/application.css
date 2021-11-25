@@ -62,7 +62,7 @@ body {
 }
 
 .product-name {
-  align-text: center;
+  text-align: center;
   font-weight: 700;
   margin: 0;
 }
