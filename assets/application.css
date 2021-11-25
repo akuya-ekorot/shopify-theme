@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body {
+  max-width: 960px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 100px;
+  object-fit: contain;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 300px);
+}
+
+.product {
+  position: relative;
+}
+
+.product-image {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.product-details {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transition: 0.5s;
+  opacity: 0;
+  gap: 15px;
+}
+
+.product div:hover .product-details {
+  opacity: 1;
+  background-color: #ffffffbb;
+}
+
+.product-name {
+  font-weight: 700;
+  margin: 0;
+}
+
+.product-price {
+  margin: 0;
+}
