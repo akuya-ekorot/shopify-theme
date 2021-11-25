@@ -1,10 +1,5 @@
-{% assign array_string = "Mike,Chris,Bob,Denis" %}
-{% assign array = array_string | split: "," %}
-
-<ul>
-  {% for name in array %}
-  	{% if name.size < 4 %}
-    	<li>{{ name }}</li>
-  	{% endif %}
-  {% endfor %}
-</ul>
+<section class="nav">
+    <a href="/">
+      <img src=logo-white.svg alt="SUED logo" class="logo"></img>
+    </a>
+</section>
