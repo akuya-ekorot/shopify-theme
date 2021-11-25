@@ -146,6 +146,7 @@ a {
 
 .product-action-container select {
   height: 30px;
+  align-self: end;
 }
 
 .product-quantity {
