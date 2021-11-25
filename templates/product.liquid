@@ -19,7 +19,7 @@
   </div>
   <div class="product-product-details-container">
     <h1 class="product-product-title">{{ product.title }}</h1>
-    <p class="product-product-price">{{ current_variant.price | money }}</p>
+    <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
     {{ product.description }}
     <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
       <div class="product-action-container">
