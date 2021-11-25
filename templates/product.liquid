@@ -22,7 +22,19 @@
     <p class="product-product-price">{{ current_variant.price | money }}</p>
     <p class="product-product-details">{{ product.description }}</p>
     <div class="product-action-container">
-      
+      <select name="id" id="productSelect">
+        {% for variant in product.variants %}
+          {% if variant.available %}
+            <option value="{{ variant.id }}">
+              {{ variant.title }} - {{ variant.price | money_with_currency }}
+            </option>
+          {% else %}
+            <option disabled="disabled">
+              {{ variant.title }} - sold out
+            </option>
+          {% endif %}
+        {% endfor %}
+      </select>
       <div class="product-quantity">
         <label for="Quantity">Quantity</label>
         <input class="product-quantity-input" type="number" name="quantity" id="Quantity" value="1" min="1">
