@@ -121,7 +121,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: auto;
+  flex: 1;
 }
 
 .product-product-title {
