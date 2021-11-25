@@ -4,24 +4,27 @@
     </a>
 </section>
 
-{% for product in collections.all.products %}
-<p>{{product.title}}</p>
-{% endfor %}
+
 
 <section class="product-grid">
-  <a class="product" href="#">
-    <div>
-      <img
-           src="/nct-01.jpg"
-           alt="Nomad Cuff Timepiece by Sued Watches"
-           class="product-image"
-           height="300px"
-           width="300px"
-           />
-      <div class="product-details">
-        <p class="product-name">Nomad Cuff Timepiece - 01</p>
-        <p class="product-price">KES 5,000</p>
+  {% for product in collections.all.products %}
+  
+  	<a class="product" href="#">
+      <div>
+        <img
+             src={{ product.image.url }}
+             alt="Nomad Cuff Timepiece by Sued Watches"
+             class="product-image"
+             height="300px"
+             width="300px"
+             />
+        <div class="product-details">
+          <p class="product-name">Nomad Cuff Timepiece - 01</p>
+          <p class="product-price">KES 5,000</p>
+        </div>
       </div>
-    </div>
-  </a>
+  	</a>
+  
+  {% endfor %}
+  
 </section>
