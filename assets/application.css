@@ -153,12 +153,12 @@ a {
   display: flex;
   flex-direction: column;
   gap: 5px;
-/*   height: 30px; */
 }
 
 .product-quantity label {
   margin: 0;
   font-size: 14px;
+  height: 30px;
 }
 
 .product-quantity-input {
