@@ -23,20 +23,22 @@
     <p class="product-product-details">{{ product.description }}</p>
     <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
       <div class="product-action-container">
-        <p>Choose Variant</p>
-        <select name="id" id="productSelect">
-          {% for variant in product.variants %}
-          {% if variant.available %}
-          <option value="{{ variant.id }}">
-            {{ variant.title }}:  {{ variant.price | money }}
-          </option>
-          {% else %}
-          <option disabled="disabled">
-            {{ variant.title }} - sold out
-          </option>
-          {% endif %}
-          {% endfor %}
-        </select>
+        <div>
+          <p>Choose Variant</p>
+          <select name="id" id="productSelect">
+            {% for variant in product.variants %}
+            {% if variant.available %}
+            <option value="{{ variant.id }}">
+              {{ variant.title }}:  {{ variant.price | money }}
+            </option>
+            {% else %}
+            <option disabled="disabled">
+              {{ variant.title }} - sold out
+            </option>
+            {% endif %}
+            {% endfor %}
+          </select>
+        </div>
         <div class="product-quantity">
           <label for="Quantity">Quantity</label>
           <input class="product-quantity-input" type="number" name="quantity" id="Quantity" value="1" min="1">
