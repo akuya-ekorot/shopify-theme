@@ -155,7 +155,7 @@ a {
   gap: 5px;
 }
 
-.product-quantity label {
+.product-quantity label, .product-action-container div p {
   margin: 0;
   font-size: 14px;
 }
