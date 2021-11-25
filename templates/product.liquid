@@ -9,7 +9,9 @@
 <div class="product-product">
   
   <div class="product-product-images-container">
-    <img class="product-featured-image" src="/nct-01.jpg" alt="" height="450px" width="450px" />
+    
+    <img class="product-featured-image" src="{{ featured_image | img_url: 'large' }}" alt="" height="450px" width="450px" />
+    
     <div class="product-product-images">
       <img class="product-product-image" src="/nct-01.jpg" alt="" height="60px" width="60px" />
     </div>
