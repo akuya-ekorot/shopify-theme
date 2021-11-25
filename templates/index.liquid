@@ -12,7 +12,7 @@
   	<a class="product" href="#">
       <div>
         <img
-             src="{{ product.featured_image }}"
+             src="{{ product | image_url: width: 300 }}"
              alt="Nomad Cuff Timepiece by Sued Watches"
              class="product-image"
              height="300px"
