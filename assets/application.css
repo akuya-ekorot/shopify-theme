@@ -144,6 +144,10 @@ a {
   margin-top: auto;
 }
 
+.product-action-container select {
+  height: 30px;
+}
+
 .product-quantity {
   display: flex;
   flex-direction: column;
