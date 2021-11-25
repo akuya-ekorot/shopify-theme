@@ -142,7 +142,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-self: end;
+  margin-top: auto;
 }
 
 .product-options {
