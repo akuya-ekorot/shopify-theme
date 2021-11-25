@@ -4,7 +4,7 @@
     </a>
     <div class="nav-menu">
         {% for collection in collections %}
-            <a class="nav-menu-item">{{collection.title}}</a>
+            <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
         {% endfor %}
     </div>
 </section>
