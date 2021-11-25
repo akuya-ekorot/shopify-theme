@@ -27,6 +27,7 @@ body {
 .nav-menu-item {
   margin: 7.5px 0;
   text-decoration: none;
+  color: black;
 }
 
 .product-grid {
