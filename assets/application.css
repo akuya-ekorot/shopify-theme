@@ -148,6 +148,7 @@ a {
   height: 30px;
   align-self: end;
   padding: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .product-action-container select option {
