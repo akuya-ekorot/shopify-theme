@@ -17,6 +17,18 @@
 		{% endfor %}
     </div>
   </div>
+  <div class="product-product-details-container">
+    <h1 class="product-product-title">{{ product.title }}</h1>
+    <p class="product-product-price">KSh6,000</p>
+    <p class="product-product-details"></p>
+    <div class="product-action-container">
+      <div class="product-quantity">
+        <p>Quantity</p>
+        <input class="product-quantity-input" type="text" name="quantity" id="quantity">
+      </div>
+      <div class="product-cart-button">Add To Cart</div>
+    </div>
+  </div>
 </div>
 
 
@@ -28,11 +40,6 @@
 
 
 
-
-
-
-
-<h1>{{ product.title }}</h1>
 
 <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
 
