@@ -157,7 +157,7 @@ a {
 }
 
 #productSelect {
-  width: 250px;
+  flex: 2;
   height: 30px;
   padding: 5px;
   font-family: "Montserrat", sans-serif;
