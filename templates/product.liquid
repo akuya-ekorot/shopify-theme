@@ -10,7 +10,7 @@
   
   <div class="product-product-images-container">
     
-    <img class="product-featured-image" src="{{ featured_image | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" height="450px" width="450px" />
+    <img class="product-featured-image" src="{{ featured_image | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
     
     <div class="product-product-images">
       <img class="product-product-image" src="/nct-01.jpg" alt="" height="60px" width="60px" />
@@ -19,7 +19,7 @@
   
 </div>
 
-<img src="{{ featured_image | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" id="ProductPhotoImg">
+<!-- <img src="{{ featured_image | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" id="ProductPhotoImg"> -->
 
 {% for image in product.images %}
   <a href="{{ image.src | img_url: 'large' }}">
