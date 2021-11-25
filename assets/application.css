@@ -53,6 +53,7 @@ body {
   transition: 0.5s;
   opacity: 0;
   gap: 15px;
+  padding: 15px;
 }
 
 .product div:hover .product-details {
