@@ -181,5 +181,5 @@ a {
   justify-content: center;
   font-family: "Montserrat", sans-serif;
   border: none;
-  width: minmax(120, auto);
+  width: minmax(120px, auto);
 }
