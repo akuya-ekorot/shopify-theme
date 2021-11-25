@@ -6,6 +6,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -22,12 +27,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 30px;
-}
-
-.nav-menu-item {
-  margin: 7.5px 0;
-  text-decoration: none;
-  color: black;
 }
 
 .product-grid {
@@ -49,8 +48,8 @@ body {
 .product-details {
   position: absolute;
   top: 0;
-  width: 270px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +58,6 @@ body {
   transition: 0.5s;
   opacity: 0;
   gap: 15px;
-  padding: 15px;
 }
 
 .product div:hover .product-details {
@@ -68,11 +66,98 @@ body {
 }
 
 .product-name {
-  text-align: center;
   font-weight: 700;
   margin: 0;
 }
 
 .product-price {
   margin: 0;
+}
+
+/* PRODUCT PAGE */
+.product-back {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.product-product {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.product-product-images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-featured-image {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.product-product-images {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.product-product-image {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.product-product-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-product-title {
+  margin: 0;
+}
+
+.product-product-price {
+  margin: 0;
+}
+
+.product-product-details {
+  margin: 0;
+  font-size: smaller;
+}
+
+.product-action-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: auto;
+}
+
+.product-quantity {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-quantity p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.product-quantity-input {
+  height: 30px;
+}
+
+.product-cart-button {
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
