@@ -159,7 +159,7 @@ a {
 #productSelect {
   height: 30px;
   padding: 5px;
-  font-family: "Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .product-quantity label {
