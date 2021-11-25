@@ -21,7 +21,7 @@
     <h1 class="product-product-title">{{ product.title }}</h1>
     <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
     {{ product.description }}
-    <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+    <form class="product-options-action-container" action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
       <div class="product-options">
         <div class="product-variant">
           <p>Choose Variant</p>
