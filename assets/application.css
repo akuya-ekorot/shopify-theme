@@ -190,7 +190,7 @@ a {
   font-family: "Montserrat", sans-serif;
   border: none;
   min-width: 120px;
-  padding: 15px;
+  height: 30px;
 }
 
 /* .product-action-container {
