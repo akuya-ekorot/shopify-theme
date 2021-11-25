@@ -4,7 +4,7 @@
     </a>
 </section>
 
-{% for product in collections["Home Page"].products %}
+{% for product in collections.all.products %}
 <p>{{product.title}}</p>
 {% endfor %}
 
