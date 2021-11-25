@@ -4,8 +4,11 @@
     </a>
 </section>
 
+{% for collection in collections %}
+<p>{{collection.title}}</p>
+{% endfor %}
+
 <section class="product-grid">
-  <h1>{{ collection.title }}</h1>
   <a class="product" href="#">
     <div>
       <img
