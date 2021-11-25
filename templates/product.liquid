@@ -23,7 +23,7 @@
     <p class="product-product-details">{{ product.description }}</p>
     <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
       <div class="product-action-container">
-        <div>
+        <div class="product-quantity">
           <p>Choose Variant</p>
           <select name="id" id="productSelect">
             {% for variant in product.variants %}
