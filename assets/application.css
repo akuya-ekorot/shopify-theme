@@ -151,13 +151,13 @@ a {
 }
 
 .product-variant {
+  flex: 2;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
 #productSelect {
-  flex: 2;
   height: 30px;
   padding: 5px;
   font-family: "Montserrat", sans-serif;
