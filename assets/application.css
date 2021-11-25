@@ -163,6 +163,10 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+.product-quantity {
+  flex: 1;
+}
+
 .product-quantity label {
   font-size: smaller;
   
