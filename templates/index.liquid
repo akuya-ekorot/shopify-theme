@@ -19,7 +19,7 @@
              />
         <div class="product-details">
           <p class="product-name">{{ product.title }}</p>
-          <p class="product-price">KES {{ product.price }}</p>
+          <p class="product-price">{{ product.price | money_with_currency}}</p>
         </div>
       </div>
   	</a>
@@ -28,7 +28,7 @@
   
 </section>
 
-<script>
+<!-- <script>
   var prices = document.querySelectorAll(".product-price");
   
   function updatePrice() {
@@ -45,4 +45,4 @@
 	setTimeout(updatePrice, 50);
   }
   
-</script>
+</script> -->
