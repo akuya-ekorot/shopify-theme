@@ -19,7 +19,7 @@
   </div>
   <div class="product-product-details-container">
     <h1 class="product-product-title">{{ product.title }}</h1>
-    <p class="product-product-price">KSh6,000</p>
+    <p class="product-product-price">{{ current_variant.price | money }}</p>
     <p class="product-product-details">{{ product.description }}</p>
     <div class="product-action-container">
       <div class="product-quantity">
