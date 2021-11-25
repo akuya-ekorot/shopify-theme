@@ -150,7 +150,10 @@ a {
   gap: 30px;
 }
 
-
+.product-variant {
+  display: flex;
+  flex-direction: column;
+}
 
 .product-action-container {
   display: flex;
