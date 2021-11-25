@@ -29,6 +29,10 @@ a {
   gap: 30px;
 }
 
+.nav-menu-time {
+  padding: 5px;
+}
+
 .product-grid {
   display: grid;
   gap: 30px;
