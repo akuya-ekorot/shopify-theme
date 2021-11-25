@@ -128,15 +128,17 @@ a {
   margin: 0;
 }
 
+#price {
+  margin: 0;
+  font-size: 16px;
+}
+
 .product-product-details-container p {
   margin: 0;
   font-size: smaller;
 }
 
-#price {
-  margin: 0;
-  font-size: 16px;
-}
+
 
 .product-action-container {
   display: flex;
