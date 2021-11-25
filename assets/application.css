@@ -156,6 +156,12 @@ a {
   gap: 5px;
 }
 
+#productSelect {
+  height: 30px;
+  padding: 5px;
+  
+}
+
 .product-action-container {
   display: flex;
   flex-direction: row;
