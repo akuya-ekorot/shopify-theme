@@ -169,7 +169,13 @@ a {
 
 .product-quantity label {
   font-size: smaller;
-  
+}
+
+.product-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-action-container {
