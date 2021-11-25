@@ -168,6 +168,11 @@ a {
   flex: 1;
 }
 
+.product-quantity-input {
+  height: 24px;
+  width: 60px
+}
+
 .product-quantity label {
   font-size: smaller;
 }
@@ -210,10 +215,7 @@ a {
   gap: 5px;
 }
 
-.product-quantity-input {
-  height: 24px;
-  width: 60px
-}
+
 
 .product-cart-button {
 
