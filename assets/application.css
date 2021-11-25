@@ -176,6 +176,12 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: black;
+  color: white;
+  flex-grow: 1;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  min-width: 120px;
 }
 
 .product-action-container {
@@ -208,14 +214,5 @@ a {
 }
 
 .product-cart-button {
-  background-color: black;
-  color: white;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  border: none;
-  min-width: 120px;
+
 }
