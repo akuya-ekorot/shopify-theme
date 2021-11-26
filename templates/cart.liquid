@@ -48,7 +48,7 @@
       {% endfor %}
       <div class="cart-subtotal-entry">
         <span class="cart-subtotal-name">Sub Total</span>
-        <span class="cart-subtotal-price">KSh11,000.00</span>
+        <span class="cart-subtotal-price">{{ cart.total_price | money }}</span>
       </div>
     </div>
     <div class="cart-action">
