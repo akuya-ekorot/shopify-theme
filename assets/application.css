@@ -231,7 +231,6 @@ a {
 
 .cart-quantity-heading {
   flex: .5;
-  text-align: center;
 }
 
 .cart-price-heading {
@@ -286,7 +285,6 @@ a {
 
 .cart-original-price {
   flex: 2;
-  text-align: center;
 }
 
 .cart-quantity {
