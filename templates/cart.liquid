@@ -21,8 +21,8 @@
           <a href="{{ item.url | within: collections.all }}">
           <img
                class="cart-item-image"
-               src="/nct-01.jpg"
-               alt="product image"
+               src="{{ item | img_url: 'medium' }}"
+               alt="{{ item.title | escape }}"
                height="100px"
                width="100px"
                />
