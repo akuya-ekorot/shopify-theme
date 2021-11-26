@@ -301,6 +301,7 @@ a {
   height: 50px;
   padding: 5px;
   text-align: center;
+  border: 1px solid darkgray;
 }
 
 .cart-price {
