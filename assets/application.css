@@ -193,28 +193,133 @@ a {
   height: 60px;
 }
 
-/* .product-action-container {
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 15px;
+}
+
+.cart-heading {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.cart-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-table-heading {
   display: flex;
   flex-direction: row;
+  font-size: smaller;
+  padding-bottom: 15px;
+  border-bottom: 1px solid darkgray;
+}
+
+.cart-item-heading {
+  flex: 6;
+}
+
+.cart-quantity-heading {
+  flex: 1;
+  text-align: center;
+}
+
+.cart-price-heading {
+  flex: 2;
+  text-align: right;
+}
+
+.cart-table-entry {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: row;
+  flex: 6;
+  align-items: center;
   gap: 30px;
-  margin-top: auto;
 }
 
-.product-action-container select {
-  height: 30px;
-  align-self: end;
+.remove-item {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid darkgray;
+}
+
+.cart-item-image {
+  object-fit: cover;
+}
+
+.cart-item-name {
+  flex: 1;
+  font-weight: bolder;
+}
+
+.cart-quantity {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-quantity-input {
+  width: 60px;
+  height: 50px;
   padding: 5px;
+  text-align: center;
+}
+
+.cart-price {
+  flex: 2;
+  text-align: right;
+}
+
+.cart-subtotal-entry {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0 0;
+}
+
+.cart-subtotal-name {
+  flex: 6;
+  text-align: right;
+}
+
+.cart-subtotal-price {
+  flex: 1;
+  text-align: right;
+}
+
+.cart-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cart-checkout,
+.update-cart {
+  align-self: flex-end;
+  padding: 22px;
+  background-color: black;
+  color: white;
+  min-width: 200px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
+  border: none;
+  font-weight: bolder;
+  letter-spacing: 0.2rem;
 }
 
-.product-action-container select option {
-  padding: 5px;
+.update-cart {
+  background-color: gray;
 }
-
-
-
-
-.product-cart-button {
-
-}
- */
