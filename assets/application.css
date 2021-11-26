@@ -279,8 +279,13 @@ a {
   font-weight: bolder;
 }
 
-.cart-quantity {
+.cart-original-price {
   flex: 1;
+  text-align: center;
+}
+
+.cart-quantity {
+  flex: .5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,7 +299,7 @@ a {
 }
 
 .cart-price {
-  flex: 2;
+  flex: 1;
   text-align: right;
 }
 
