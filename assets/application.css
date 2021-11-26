@@ -258,6 +258,9 @@ a {
 
 .cart-item-link {
   flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .cart-item-image {
