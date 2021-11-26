@@ -158,7 +158,7 @@ a {
   gap: 5px;
 }
 
-#productSelect {
+.product-quantity-select {
   height: 30px;
   padding: 5px;
   font-family: "Montserrat", sans-serif;
