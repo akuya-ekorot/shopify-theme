@@ -358,3 +358,7 @@ a {
   align-items: center;
   font-weight: bolder;
 }
+
+.empty-cart img {
+  padding-left: 60px
+}
