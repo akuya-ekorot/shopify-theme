@@ -14,7 +14,7 @@
     {% endfor %}
     <div class="product-product-images">
       {% for image in product.images %}
-      <a href="{{ image.src | img_url: 'large' }}">
+      <a onClick="currentDiv({{ forloop.index }})">
         <img class="product-product-image" src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" width="60px">
       </a>
       {% endfor %}
