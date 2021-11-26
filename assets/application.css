@@ -226,11 +226,11 @@ a {
 
 .cart-original-price-heading {
   flex: 2;
-  text-align: center;
 }
 
 .cart-quantity-heading {
   flex: .5;
+  text-align: center;
 }
 
 .cart-price-heading {
