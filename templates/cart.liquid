@@ -10,13 +10,13 @@
       {% for item in cart.items %}
       <div class="cart-table-entry">
         <div class="cart-item">
-          <button
+          <a
                   href="/cart/change?line={{ forloop.index }}&amp;quantity=0"
                   class="remove-item"
                   title="Remove Item"
                   >
             <span>x</span>
-          </button>
+          </a>
           <a class="cart-item-link" href="{{ item.url | within: collections.all }}">
           <img
                class="cart-item-image"
