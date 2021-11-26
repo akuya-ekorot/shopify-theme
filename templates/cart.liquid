@@ -49,7 +49,7 @@
         {% endfor %}
         <div class="cart-subtotal-entry">
           <span class="cart-subtotal-name">Sub Total</span>
-          <span class="cart-subtotal-price">{{ cart.final_line_price | money }}</span>
+          <span class="cart-subtotal-price">{{ cart.total_price | money }}</span>
         </div>
       </div>
       <div class="cart-action">
