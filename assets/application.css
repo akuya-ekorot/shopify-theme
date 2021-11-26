@@ -67,7 +67,7 @@ a {
 
 .product div:hover .product-details {
   opacity: 1;
-  background-color: #ffffffbb;
+  background-color: #ffffffff;
 }
 
 .product-name {
