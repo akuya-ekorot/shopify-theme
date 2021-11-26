@@ -31,7 +31,7 @@
           </div>
           </a>
         </div>
-        <span class="cart-price">{{ item.original_line_price | money }}</span>
+        <span class="cart-original-price">{{ item.original_line_price | money }}</span>
         <div class="cart-quantity">
           <input
                  class="cart-quantity-input"
@@ -42,7 +42,7 @@
                  min="0"
                  />
         </div>
-        <span class="cart-price">{{ item.original_line_price | money }}</span>
+        <span class="cart-price">{{ item.price | money }}</span>
       </div>
       {% endfor %}
       <div class="cart-subtotal-entry">
