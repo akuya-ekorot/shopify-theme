@@ -36,9 +36,10 @@
           <input
                  class="cart-quantity-input"
                  type="number"
-                 name="quantity"
-                 id="quantity"
-                 value="1"
+                 name="updates[]"
+                 id="updates_{{ item.key }}"
+                 value="{{ item.quantity }}"
+                 min="0"
                  />
         </div>
         <span class="cart-price">KSh5,500.00</span>
