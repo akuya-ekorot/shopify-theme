@@ -256,6 +256,10 @@ a {
   border: 1px solid darkgray;
 }
 
+.cart-item-link {
+  flex: 1;
+}
+
 .cart-item-image {
   object-fit: cover;
 }
