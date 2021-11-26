@@ -343,8 +343,10 @@ a {
   border: none;
   font-weight: bolder;
   letter-spacing: 0.2rem;
+  cursor: pointer;
 }
 
 .update-cart {
   background-color: gray;
+  cursor: pointer;
 }
