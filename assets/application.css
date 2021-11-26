@@ -280,7 +280,7 @@ a {
 }
 
 .cart-original-price {
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 
@@ -299,7 +299,7 @@ a {
 }
 
 .cart-price {
-  flex: 1;
+  flex: 2;
   text-align: right;
 }
 
