@@ -175,6 +175,7 @@ a {
   height: 54px;
   width: 60px;
   text-align: center;
+  border: 1px solid darkgray;
 }
 
 .product-quantity label {
