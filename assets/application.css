@@ -224,8 +224,13 @@ a {
   flex: 6;
 }
 
+.cart-original-price-heading {
+  flex: 2;
+  text-align: center;
+}
+
 .cart-quantity-heading {
-  flex: 1;
+  flex: .5;
   text-align: center;
 }
 
