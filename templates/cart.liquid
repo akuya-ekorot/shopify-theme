@@ -1,52 +1,52 @@
 {% if cart.item_count > 0 %}
-<section class="cart">
-  <h1 class="cart-heading">Shopping Cart</h1>
-  <div class="cart-table">
-    <div class="cart-table-heading">
-      <span class="cart-item-heading">ITEM</span>
-      <span class="cart-quantity-heading">QUANTITY</span>
-      <span class="cart-price-heading">PRICE</span>
-    </div>
-    <div class="cart-table-entry">
-      <div class="cart-item">
-        <button
-                href="#"
-                class="remove-item"
-                aria-label="Remove Item"
-                title="Remove Item"
-                >
-          <span>x</span>
-        </button>
-        <img
-             class="cart-item-image"
-             src="/nct-01.jpg"
-             alt="product image"
-             height="100px"
-             width="100px"
-             />
-        <span class="cart-item-name">Nomad Cuff Collection</span>
+  <section class="cart">
+    <h1 class="cart-heading">Shopping Cart</h1>
+    <div class="cart-table">
+      <div class="cart-table-heading">
+        <span class="cart-item-heading">ITEM</span>
+        <span class="cart-quantity-heading">QUANTITY</span>
+        <span class="cart-price-heading">PRICE</span>
       </div>
-      <div class="cart-quantity">
-        <input
-               class="cart-quantity-input"
-               type="number"
-               name="quantity"
-               id="quantity"
-               value="1"
+      <div class="cart-table-entry">
+        <div class="cart-item">
+          <button
+                  href="#"
+                  class="remove-item"
+                  aria-label="Remove Item"
+                  title="Remove Item"
+                  >
+            <span>x</span>
+          </button>
+          <img
+               class="cart-item-image"
+               src="/nct-01.jpg"
+               alt="product image"
+               height="100px"
+               width="100px"
                />
+          <span class="cart-item-name">Nomad Cuff Collection</span>
+        </div>
+        <div class="cart-quantity">
+          <input
+                 class="cart-quantity-input"
+                 type="number"
+                 name="quantity"
+                 id="quantity"
+                 value="1"
+                 />
+        </div>
+        <span class="cart-price">KSh5,500.00</span>
       </div>
-      <span class="cart-price">KSh5,500.00</span>
+      <div class="cart-subtotal-entry">
+        <span class="cart-subtotal-name">Sub Total</span>
+        <span class="cart-subtotal-price">KSh11,000.00</span>
+      </div>
     </div>
-    <div class="cart-subtotal-entry">
-      <span class="cart-subtotal-name">Sub Total</span>
-      <span class="cart-subtotal-price">KSh11,000.00</span>
+    <div class="cart-action">
+      <button class="update-cart">UPDATE CART</button>
+      <button class="cart-checkout">CHECKOUT</button>
     </div>
-  </div>
-  <div class="cart-action">
-    <button class="update-cart">UPDATE CART</button>
-    <button class="cart-checkout">CHECKOUT</button>
-  </div>
-</section>
+  </section>
 
 
 
