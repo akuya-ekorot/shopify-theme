@@ -15,15 +15,15 @@
     <a href="/">
       <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo"></img>
     </a>
-    <div class="nav-menu">
-        {% for collection in collections %}
-            <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
-        {% endfor %}
-    </div>
-</section>
+  <!--     <div class="nav-menu">
+{% for collection in collections %}
+<a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
+{% endfor %}
+</div> -->
+  </section>
 
-  <main role="main">
-    {{ content_for_layout }}
-  </main>
+<main role="main">
+  {{ content_for_layout }}
+</main>
 </body>
 </html>
