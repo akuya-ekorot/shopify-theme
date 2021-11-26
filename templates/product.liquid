@@ -25,7 +25,7 @@
       <div class="product-options">
         <div class="product-variant">
           <p>Choose Variant</p>
-          <select name="id" id="productSelect">
+          <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
             {% if variant.available %}
             <option value="{{ variant.id }}">
