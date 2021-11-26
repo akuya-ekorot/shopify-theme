@@ -10,7 +10,7 @@
   <div class="product-product-images-container">
     <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
     {% for featuredImage in product.images %}
-    <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
+    <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" style="display: none;" />
     {% endfor %}
     <div class="product-product-images">
       {% for image in product.images %}
