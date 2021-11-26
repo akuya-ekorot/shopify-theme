@@ -356,4 +356,5 @@ a {
   flex-direction: column;
   gap: 60px;
   align-items: center;
+  font-weight: bolder;
 }
