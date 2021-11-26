@@ -192,6 +192,7 @@ a {
   color: white;
   flex-grow: 1;
   font-family: "Montserrat", sans-serif;
+  font-size: normal;
   border: none;
   min-width: 120px;
   height: 60px;
