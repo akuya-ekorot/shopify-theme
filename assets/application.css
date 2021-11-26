@@ -259,7 +259,7 @@ a {
 .remove-item {
   padding: 10px;
   background-color: white;
-  border: 1px solid darkgray;
+/*   border: 1px solid darkgray; */
 }
 
 .cart-item-link {
