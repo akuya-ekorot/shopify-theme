@@ -1,63 +1,63 @@
 {% if cart.item_count > 0 %}
-<form action="/cart" method="post" novalidate>
-  <section class="cart">
-    <h1 class="cart-heading">Shopping Cart</h1>
-    <div class="cart-table">
-      <div class="cart-table-heading">
-        <span class="cart-item-heading">ITEM</span>
-        <span class="cart-original-price-heading">UNIT PRICE</span>
-        <span class="cart-quantity-heading">QUANTITY</span>
-        <span class="cart-price-heading">FINAL PRICE</span>
-      </div>
-      {% for item in cart.items %}
-      <div class="cart-table-entry">
-        <div class="cart-item">
-          <a
-             href="/cart/change?line={{ forloop.index }}&amp;quantity=0"
-             class="remove-item"
-             title="Remove Item"
-             >
-            <span>x</span>
-          </a>
-          <a class="cart-item-link" href="{{ item.url | within: collections.all }}">
-            <img
-                 class="cart-item-image"
-                 src="{{ item | img_url: 'medium' }}"
-                 alt="{{ item.title | escape }}"
-                 height="100px"
-                 width="100px"
-                 />
-            <div class="cart-item-name-variant-container">
-              <span class="cart-item-name">{{ item.product.title }}</span>
-              <span class="cart-item-variant">{{ item.variant.title }}</span>
-            </div>
-          </a>
+  <form action="/cart" method="post" novalidate>
+    <section class="cart">
+      <h1 class="cart-heading">Shopping Cart</h1>
+      <div class="cart-table">
+        <div class="cart-table-heading">
+          <span class="cart-item-heading">ITEM</span>
+          <span class="cart-original-price-heading">UNIT PRICE</span>
+          <span class="cart-quantity-heading">QUANTITY</span>
+          <span class="cart-price-heading">FINAL PRICE</span>
         </div>
-        <span class="cart-original-price">{{ item.original_line_price | money }}</span>
-        <div class="cart-quantity">
-          <input
-                 class="cart-quantity-input"
-                 type="number"
-                 name="updates[]"
-                 id="updates_{{ item.key }}"
-                 value="{{ item.quantity }}"
-                 min="0"
-                 />
+        {% for item in cart.items %}
+        <div class="cart-table-entry">
+          <div class="cart-item">
+            <a
+               href="/cart/change?line={{ forloop.index }}&amp;quantity=0"
+               class="remove-item"
+               title="Remove Item"
+               >
+              <span>x</span>
+            </a>
+            <a class="cart-item-link" href="{{ item.url | within: collections.all }}">
+              <img
+                   class="cart-item-image"
+                   src="{{ item | img_url: 'medium' }}"
+                   alt="{{ item.title | escape }}"
+                   height="100px"
+                   width="100px"
+                   />
+              <div class="cart-item-name-variant-container">
+                <span class="cart-item-name">{{ item.product.title }}</span>
+                <span class="cart-item-variant">{{ item.variant.title }}</span>
+              </div>
+            </a>
+          </div>
+          <span class="cart-original-price">{{ item.original_line_price | money }}</span>
+          <div class="cart-quantity">
+            <input
+                   class="cart-quantity-input"
+                   type="number"
+                   name="updates[]"
+                   id="updates_{{ item.key }}"
+                   value="{{ item.quantity }}"
+                   min="0"
+                   />
+          </div>
+          <span class="cart-price">{{ item.price | money }}</span>
         </div>
-        <span class="cart-price">{{ item.price | money }}</span>
+        {% endfor %}
+        <div class="cart-subtotal-entry">
+          <span class="cart-subtotal-name">Sub Total</span>
+          <span class="cart-subtotal-price">{{ cart.total_price | money }}</span>
+        </div>
       </div>
-      {% endfor %}
-      <div class="cart-subtotal-entry">
-        <span class="cart-subtotal-name">Sub Total</span>
-        <span class="cart-subtotal-price">{{ cart.total_price | money }}</span>
+      <div class="cart-action">
+        <button class="update-cart" name="update" type="submit">UPDATE CART</button>
+        <button class="cart-checkout" name="checkout" type="submit">CHECKOUT</button>
       </div>
-    </div>
-    <div class="cart-action">
-      <button class="update-cart" name="update" type="submit">UPDATE CART</button>
-      <button class="cart-checkout" name="checkout" type="submit">CHECKOUT</button>
-    </div>
-  </section>
-</form>
+    </section>
+  </form>
 
 
 
