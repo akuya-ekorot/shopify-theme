@@ -218,6 +218,7 @@ a {
   font-size: smaller;
   padding-bottom: 15px;
   border-bottom: 1px solid darkgray;
+  gap: 30px;
 }
 
 .cart-item-heading {
