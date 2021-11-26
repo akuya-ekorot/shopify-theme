@@ -41,7 +41,7 @@
                  min="0"
                  />
         </div>
-        <span class="cart-price">{{ item.price | money }}</span>
+        <span class="cart-price">{{ item.original_line_price | money }}</span>
       </div>
       {% endfor %}
       <div class="cart-subtotal-entry">
