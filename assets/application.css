@@ -362,3 +362,7 @@ a {
 .empty-cart img {
   padding-right: 60px
 }
+
+.empty-cart span {
+  font-weight: normal;
+}
