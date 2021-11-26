@@ -42,8 +42,6 @@
                  />
         </div>
         <span class="cart-price">{{ item.price | money }}</span>
-        {{ item.discount_allocations }}
-        {% for discount in item.discount_allocations %}<span>{{ discount }}</span>{% endfor %}
       </div>
       {% endfor %}
       <div class="cart-subtotal-entry">
