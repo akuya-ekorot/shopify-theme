@@ -8,7 +8,7 @@
 
 <div class="product-product">
   <div class="product-product-images-container">
-    <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
+    <img class="product-featured-image" src="{{ featured_image.src | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
     {% for featuredImage in product.images %}
     <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" style="display: none;" />
     {% endfor %}
