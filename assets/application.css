@@ -173,7 +173,8 @@ a {
 
 .product-quantity-input {
   height: 54px;
-  width: 60px
+  width: 60px;
+  text-align: center;
 }
 
 .product-quantity label {
