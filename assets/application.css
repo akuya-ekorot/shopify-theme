@@ -230,7 +230,11 @@ a {
 }
 
 .size-guide-button {
-  margin-top: auto;}
+  margin-top: auto;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
 
 .product-variant {
   flex: 2;
