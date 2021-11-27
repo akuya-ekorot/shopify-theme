@@ -226,7 +226,7 @@ a {
   border: 1px solid darkgray;
   font-family: "Montserrat", sans-serif;
   height: 60px;
- 
+  text-align: center;
 }
 
 .product-variant {
