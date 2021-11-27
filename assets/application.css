@@ -27,13 +27,11 @@ a {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  background-color: black;
 }
 
 .nav-menu-item {
   padding: 5px;
   font-size: smaller;
-  color: white;
 }
 
 .product-grid {
