@@ -46,7 +46,7 @@ a {
 
 .product-grid {
   display: grid;
-  gap: auto;
+  gap: 10%;
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: space-evenly;
   align-content: space-evenly;
