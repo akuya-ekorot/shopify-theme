@@ -521,10 +521,10 @@ li {
 
   .product-grid {
     gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 300px))
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px))
   }
 
   .product-image {
-    width: clamp(220px, 100%, 300px)
+    width: clamp(200px, 100%, 300px)
 
   }
