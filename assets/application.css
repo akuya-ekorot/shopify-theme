@@ -434,6 +434,20 @@ a {
   font-weight: normal;
 }
 
+.size-guide-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px
+}
+
+.size-guide-animation-container {
+  flex: 1;
+}
+
+.size-guide-description {
+  flex: 1;
+}
+
 
 
 @media only screen and (max-width: 975px) {
