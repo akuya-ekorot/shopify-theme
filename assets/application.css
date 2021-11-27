@@ -518,5 +518,9 @@ li {
   main section {
     padding: 0 15px;
   }
+  
+  .product-grid {
+    gap: 15px;
+  }
 
 }
