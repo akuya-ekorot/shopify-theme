@@ -45,6 +45,12 @@ a {
   font-size: .9rem;
 }
 
+.section-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .section-heading {
   text-transform: uppercase;
   letter-spacing: .2rem;
