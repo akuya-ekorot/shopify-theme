@@ -239,6 +239,7 @@ a {
   align-items: center;
   justify-content: center;
   font-size: 14px;
+  flex: 1;
 }
 
 .product-variant {
