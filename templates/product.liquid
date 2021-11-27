@@ -25,10 +25,15 @@
     <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
     {{ product.description }}
     <form class="product-options-action-container" action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+
+      <a href="/pages/size-guide" class="size-guide-button">
+        <span>
+          View Size Guide
+        </span>
+      </a>
       <div class="product-options">
         <div class="product-wrist-size">
           <label>Small Wrist Size</label>
-          <span>Part A</span>
           <input 
                  type="number"
                  name="attributes[small-wrist-size]"
@@ -38,7 +43,6 @@
         </div>
         <div class="product-wrist-size">
           <label>Large Wrist Size</label>
-          <span>Part B</span>
           <input 
                  type="number"
                  name="attributes[large-wrist-size]"
@@ -46,14 +50,18 @@
                  class="product-wrist-size-input"
                  />
         </div>
-
-
+        <div class="product-wrist-size">
+          <label>Unit</label>
+          <select class="product-wrist-size-input" name="attributes[units]">
+            <option value="centimeters">
+              cm
+            </option>
+            <option value="inches">
+              in
+            </option>
+          </select>
+        </div>
       </div>
-      <a href="/pages/size-guide" class="size-guide-button">
-        <span>
-          View Size Guide
-        </span>
-      </a>
       <div class="product-options">
         <div class="product-variant">
           <p>Choose Variant</p>

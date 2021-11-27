@@ -153,6 +153,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 60px;
 }
 
 .product-product-images-container {
@@ -218,28 +219,28 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2px;
-/*   flex: 1; */
+  flex: 1;
   font-size: smaller;
+  margin-top: auto;
 }
 
 .product-wrist-size-input {
   border: 1px solid darkgray;
   font-family: "Montserrat", sans-serif;
-  height: 60px;
+  height: 56px;
   text-align: center;
 }
 
 .size-guide-button {
   margin-top: auto;
   height: 60px;
-  background-color: black;
+  background-color: darkgray;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  flex: 2;
 }
 
 .product-variant {
@@ -264,7 +265,7 @@ a {
 }
 
 .product-quantity-input {
-  height: 54px;
+  height: 56px;
   width: 60px;
   text-align: center;
   border: 1px solid darkgray;
