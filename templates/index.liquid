@@ -1,6 +1,8 @@
 <section>
   {% for collection in collections %}
+  {% if collection.title != "All Products" %}
   <h2 class="section-heading">{{ collection.title }}</h2>
+  {% endif %}
   {% endfor %}
 </section>
 
