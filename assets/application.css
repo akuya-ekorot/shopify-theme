@@ -69,6 +69,10 @@ a {
   .nav {
     background-color: white;
   }
+  .product div:hover .product-details {
+    opacity: 1;
+    background-color: #ffffffd0;
+  }
 }
 
 .logo {
