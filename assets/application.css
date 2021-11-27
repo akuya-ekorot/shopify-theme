@@ -30,7 +30,7 @@ a {
 }
 
 .logo-container {
-  flex: 1;
+  width: 100%;
 }
 
 .logo {
