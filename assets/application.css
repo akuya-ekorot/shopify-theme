@@ -59,8 +59,8 @@ a {
   }
   .product div:hover .product-details {
     opacity: 1;
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
   }
 
