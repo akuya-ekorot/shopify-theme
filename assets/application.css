@@ -229,6 +229,9 @@ a {
   text-align: center;
 }
 
+.size-guide-button {
+  margin-top: auto;}
+
 .product-variant {
   flex: 2;
   display: flex;
