@@ -1,12 +1,14 @@
 <section>
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
-  <a href="{{ collection.url }}">
-    <div class="section-heading-container">
-      <h2 class="section-heading">{{ collection.title }}</h2>
+  <div class="section-heading-container">
+    <a href="{{ collection.url }}">
+    </a>
+    <h2 class="section-heading">{{ collection.title }}</h2>
+    <a href="{{ collection.url }}">
       <span> See more → </span>
-    </div>
-  </a>
+    </a>
+  </div>
   <div class="product-grid">
     {% for product in collection.products limit:3 %}
     <a class="product" href="{{ product.url }}">
