@@ -492,6 +492,9 @@ li {
 
 
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 768px) {
+  .nav-alert {
+    font-size: smaller;
+  }
 
 }
