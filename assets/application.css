@@ -125,7 +125,7 @@ a {
   align-items: center;
   justify-content: center;
   color: black;
-  transition: 0.5s;
+  transition: 0.2s;
   opacity: 0;
   gap: 15px;
   padding: 15px;
