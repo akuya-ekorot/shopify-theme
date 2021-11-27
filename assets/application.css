@@ -48,7 +48,7 @@ a {
 .section-heading {
   text-transform: uppercase;
   letter-spacing: .2rem;
-  margin: auto;
+  text-align: center;
 }
 
 .product-grid {
