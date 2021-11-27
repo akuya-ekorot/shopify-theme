@@ -107,7 +107,7 @@ a {
 .product-image {
   object-fit: cover;
   overflow: hidden;
-  width: clamp(300px, 100%, 600px);
+  width: clamp(220px, 100%, 300px);
 }
 
 .product-details {
