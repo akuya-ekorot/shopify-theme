@@ -14,6 +14,13 @@ a {
   color: inherit;
 }
 
+.nav-alert {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: larger;
+}
+
 .nav {
   display: flex;
   flex-direction: column;
