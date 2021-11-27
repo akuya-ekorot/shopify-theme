@@ -490,6 +490,10 @@ li {
   margin-bottom: 15px;
 }
 
+main section {
+  padding: 0 15px;
+}
+
 
 
 @media only screen and (max-width: 768px) {
@@ -497,34 +501,34 @@ li {
     font-size: smaller;
     padding: 10px 0;
   }
-  
+
   .nav {
     top: 36px;
     gap: 10px;
     padding-bottom: 15px;
   }
-  
+
   .size-guide-container {
     padding: 15px 15px 0;
     gap: 0;
   }
-  
+
   .section-heading-container {
     margin-top: 30px;
     margin-bottom: 0;
-  
+
   }
-  
+
   main section {
     padding: 0 15px;
   }
-  
+
   .product-grid {
     gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(220px, 300px))
   }
-  
+
   .product-image {
     width: clamp(220px, 100%, 300px)
 
-}
+  }
