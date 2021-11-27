@@ -95,7 +95,7 @@ a {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: clamp(15px, auto, 30px);
+  gap: clamp(15px, 1rem, 30px);
   justify-content: center;
   justify-items: center;
 }
