@@ -47,7 +47,12 @@
           <input class="product-quantity-input" type="number" name="quantity" id="Quantity" value="1" min="1">
         </div>
         <div class="product-small-wrist-size">
-          {% render 'products.custom_fields' %}
+          <label>Small Wrist Size</label>
+          <input 
+                 type="number"
+                 name="attributes[small-wrist-size]"
+                 value="{{ cart.attributes.small-wrist-size }}"
+                 />
         </div>
       </div>
       <button type="submit" name="add" id="AddToCart" class="product-action">Add To Cart</button>
