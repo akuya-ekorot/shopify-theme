@@ -55,7 +55,7 @@ a {
   .nav-alert {
     -webkit-backdrop-filter: blur(50px);
     backdrop-filter: blur(50px);
-    background-color: rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.9); 
   }
     
 }
