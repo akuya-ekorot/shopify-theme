@@ -29,16 +29,10 @@ a {
   width: 100%;
 }
 
-.logo-container {
-  width: 100%;
-}
-
 .logo {
   height: 100px;
   object-fit: contain;
 }
-
-
 
 .nav-menu {
   display: flex;
