@@ -6,7 +6,7 @@
 
 .body {
   max-width: 960px;
-  margin: auto;
+  margin: ;
 }
 
 a {
@@ -20,7 +20,9 @@ a {
   align-items: center;
   margin-bottom: 60px;
   gap: 15px;
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .logo {
