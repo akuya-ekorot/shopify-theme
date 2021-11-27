@@ -133,7 +133,7 @@ a {
 
 .product div:hover .product-details {
   opacity: 1;
-  background-color: #ffffffd0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .product-name {
