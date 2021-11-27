@@ -442,7 +442,7 @@ a {
 }
 
 .size-guide-animation-container {
-  flex: 1.5;
+  flex: 1;
 }
 
 .size-guide-animation {
@@ -451,9 +451,9 @@ a {
   background-color: black;
 }
 
-.size-guide-description {
+/* .size-guide-description {
   flex: 1;
-}
+} */
 
 li {
   margin-bottom: 15px;
