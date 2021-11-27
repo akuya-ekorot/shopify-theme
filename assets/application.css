@@ -526,8 +526,8 @@ li {
   }
 
   .product-image, .product-details {
-    width: clamp(150px, 100%, 230px);
-    height: clamp(150px, 100%, 230px);
+    width: clamp(150px, 100%, 300px);
+    height: clamp(150px, 100%, 300px);
   }
 
 }
