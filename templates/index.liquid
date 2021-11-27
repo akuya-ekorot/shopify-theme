@@ -2,6 +2,7 @@
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
   <h2 class="section-heading">{{ collection.title }}</h2>
+  <span> See more → </span>
   <div class="product-grid">
   {% for product in collection.products limit:3 %}
     <a class="product" href="{{ product.url }}">
