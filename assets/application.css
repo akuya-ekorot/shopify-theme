@@ -441,9 +441,9 @@ a {
 /*   align-items: center; */
 }
 
-/* .size-guide-animation-container {
+.size-guide-animation-container {
   flex: 1;
-} */
+}
 
 .size-guide-animation {
   height: 500px;
