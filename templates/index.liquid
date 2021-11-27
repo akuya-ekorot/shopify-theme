@@ -1,3 +1,13 @@
+<section>
+  {% for collection in collections %}
+  <h2 class="section-heading">{{ collection.title }}</h2>
+  {% endfor %}
+</section>
+
+
+
+
+
 <h2 class="section-heading">ALL PRODUCTS</h2>
 <section class="product-grid">
   {% for product in collections.all-products.products %}
