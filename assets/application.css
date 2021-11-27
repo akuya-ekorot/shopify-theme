@@ -437,7 +437,8 @@ a {
 .size-guide-container {
   display: flex;
   flex-direction: row;
-  gap: 30px
+  gap: 30px;
+  align-items: end;
 }
 
 .size-guide-animation-container {
