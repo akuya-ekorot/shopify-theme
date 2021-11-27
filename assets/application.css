@@ -507,5 +507,11 @@ li {
   .size-guide-container {
     padding: 15px 15px 0;
     gap: 0;
+  }
+  
+  .section-heading-container {
+    margin-top: 30px;
+  
+  }
 
 }
