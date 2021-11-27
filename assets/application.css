@@ -25,6 +25,9 @@ a {
   font-size: normal;
   padding: 15px;
   text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .nav {
