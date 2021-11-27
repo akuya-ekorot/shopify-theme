@@ -27,29 +27,3 @@
   {% endif %}
   {% endfor %}
 </section>
-
-
-
-
-
-<div class="section-heading-container">
-  <h2 class="section-heading">{{ collection.title }}</h2>
-</div>
-<div class="product-grid">
-  {% for product in collections.all-products.products %}
-  <a class="product" href="{{ product.url }}">
-    <div>
-      <img
-           src="{{ product | image_url }}"
-           alt="Nomad Cuff Timepiece by Sued Watches"
-           class="product-image"
-           />
-      <div class="product-details">
-        <p class="product-name">{{ product.title }}</p>
-        <p class="product-price">{{ product.price | money_with_currency}}</p>
-      </div>
-    </div>
-  </a>
-  {% endfor %}
-
-</div>
