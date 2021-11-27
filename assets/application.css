@@ -131,10 +131,10 @@ a {
   padding: 15px;
 }
 
-/* .product div:hover .product-details {
+.product div:hover .product-details {
   opacity: 1;
   background-color: #ffffffd0;
-} */
+}
 
 .product-name {
   font-weight: 700;
