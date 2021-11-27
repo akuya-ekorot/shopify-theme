@@ -115,7 +115,7 @@ a {
 .product-details {
   position: absolute;
   top: 0;
-  width: calc(100%-30px);
+  width: calc(100% - 30px);
 /*   height: clamp(150px, 100%, 300px); */
   display: flex;
   flex-direction: column;
