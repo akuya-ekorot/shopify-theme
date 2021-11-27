@@ -65,7 +65,7 @@ a {
 .product-image {
   object-fit: contain;
   width: clamp(300px, 100%, 500px);
-  height: clamp(300px, 1vh, 500px);
+  height: clamp(300px, 100%, 500px);
 }
 
 .product-details {
