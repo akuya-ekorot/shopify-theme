@@ -440,7 +440,7 @@ a {
   gap: 30px;
   background-color: black;
   color: white;
-/*   align-items: center; */
+  align-items: center;
 }
 
 .size-guide-animation-container {
