@@ -20,7 +20,7 @@ a {
 
 .nav-alert {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.96);
   color: white;
   font-size: normal;
   padding: 15px 0;
@@ -42,7 +42,7 @@ a {
   position: sticky;
   top: 49px;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.96);
   width: 100%;
 }
 
@@ -129,7 +129,7 @@ a {
 
 .product div:hover .product-details {
   opacity: 1;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .product-name {
