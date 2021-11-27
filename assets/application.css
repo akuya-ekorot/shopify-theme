@@ -64,7 +64,7 @@ a {
 .product-image {
   object-fit: cover;
   width: clamp(300px, auto, 500px);
-  min-height: 300px;
+  height: clamp(300px, auto, 500px);
 }
 
 .product-details {
