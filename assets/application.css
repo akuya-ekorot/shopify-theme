@@ -49,6 +49,7 @@ a {
   text-transform: uppercase;
   letter-spacing: .2rem;
   text-align: center;
+  margin: 60px 0 30px;
 }
 
 .product-grid {
