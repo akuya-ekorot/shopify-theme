@@ -108,7 +108,6 @@ a {
   object-fit: cover;
   overflow: hidden;
   width: clamp(300px, 100%, 600px);
-  /*   height: clamp(300px, 100%, 600px); */
 }
 
 .product-details {
