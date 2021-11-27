@@ -205,6 +205,7 @@ a {
   flex-direction: column;
   gap: 15px;
   margin-top: auto;
+  font-size: smaller;
 }
 
 .product-options {
