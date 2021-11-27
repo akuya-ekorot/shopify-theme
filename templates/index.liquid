@@ -2,7 +2,8 @@
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
   <h2 class="section-heading">{{ collection.title }}</h2>
-  <a class="product" href="{{ collection.product.url }}">
+  {% for product in collection.products %}
+  <a class="product" href="{{ product.url }}">
     <div>
       <img
            src="{{ collection.product | image_url }}"
@@ -15,6 +16,7 @@
       </div>
     </div>
   </a>
+  {% endfor %}
   {% endif %}
   {% endfor %}
 </section>
