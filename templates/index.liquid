@@ -3,7 +3,9 @@
   {% if collection.title != "All Products" %}
   <div class="section-heading-container">
     <h2 class="section-heading">{{ collection.title }}</h2>
-    <span> See more → </span>
+    <a href="{{ collection.url }}">
+      <span> See more → </span>
+    </a>
   </div>
   <div class="product-grid">
     {% for product in collection.products limit:3 %}
