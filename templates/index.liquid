@@ -1,7 +1,6 @@
 <h2 class="section-heading">ALL PRODUCTS</h2>
 <section class="product-grid">
   {% for product in collections.all-products.products %}
-  
   	<a class="product" href="{{ product.url }}">
       <div>
         <img
@@ -15,7 +14,6 @@
         </div>
       </div>
   	</a>
-  
   {% endfor %}
   
 </section>
