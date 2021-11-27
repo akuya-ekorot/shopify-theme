@@ -524,7 +524,7 @@ li {
     grid-template-columns: repeat(auto-fill, minmax(200px, 250px))
   }
 
-  .product-image {
+  .product-image, .product-details {
     width: clamp(200px, 100%, 250px)
 
   }
