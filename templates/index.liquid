@@ -2,16 +2,16 @@
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
   <h2 class="section-heading">{{ collection.title }}</h2>
-  <a class="product" href="{{ product.url }}">
+  <a class="product" href="{{ collection.product.url }}">
     <div>
       <img
-           src="{{ product | image_url }}"
+           src="{{ collection.product | image_url }}"
            alt="Nomad Cuff Timepiece by Sued Watches"
            class="product-image"
            />
       <div class="product-details">
-        <p class="product-name">{{ product.title }}</p>
-        <p class="product-price">{{ product.price | money_with_currency}}</p>
+        <p class="product-name">{{ collection.product.title }}</p>
+        <p class="product-price">{{ collection.product.price | money_with_currency}}</p>
       </div>
     </div>
   </a>
