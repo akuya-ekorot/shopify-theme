@@ -451,9 +451,9 @@ a {
   background-color: black;
 }
 
-/* .size-guide-description {
+.size-guide-description {
   flex: 1;
-} */
+}
 
 li {
   margin-bottom: 15px;
