@@ -27,7 +27,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  background-color: darkgray;
+  background-color: black;
 }
 
 .nav-menu-item {
