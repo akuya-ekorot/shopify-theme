@@ -45,6 +45,11 @@ a {
   font-size: .9rem;
 }
 
+.section-heading {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
