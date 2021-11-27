@@ -26,12 +26,12 @@ a {
 .nav-menu {
   display: flex;
   flex-direction: row;
+  gap: 15px;
 }
 
 .nav-menu-item {
   padding: 5px;
   font-size: small;
-  margin: 0 auto;
 }
 
 .product-grid {
