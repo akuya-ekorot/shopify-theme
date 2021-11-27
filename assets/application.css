@@ -20,6 +20,7 @@ a {
   align-items: center;
   margin-bottom: 60px;
   gap: 15px;
+  position: fixed;
 }
 
 .logo {
