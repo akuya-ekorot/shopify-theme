@@ -513,5 +513,9 @@ li {
     margin-top: 30px;
   
   }
+  
+  main section {
+    padding: 0 10px;
+  }
 
 }
