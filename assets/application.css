@@ -501,6 +501,7 @@ li {
   .nav {
     top: 36px;
     gap: 10px;
+    padding-bottom: 15px;
   }
 
 }
