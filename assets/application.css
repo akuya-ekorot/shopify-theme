@@ -214,6 +214,12 @@ a {
   gap: 15px;
 }
 
+.product-wrist-size {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
 .product-variant {
   flex: 2;
   display: flex;
