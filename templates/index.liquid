@@ -2,23 +2,23 @@
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
   <h2 class="section-heading">{{ collection.title }}</h2>
-  <div class="product-grid">
   {% for product in collection.products %}
-  <a class="product" href="{{ product.url }}">
-    <div>
-      <img
-           src="{{ product | image_url }}"
-           alt="{{ product.image.alt }}"
-           class="product-image"
-           />
-      <div class="product-details">
-        <p class="product-name">{{ product.title }}</p>
-        <p class="product-price">{{ product.price | money_with_currency}}</p>
+  <div class="product-grid">
+    <a class="product" href="{{ product.url }}">
+      <div>
+        <img
+             src="{{ product | image_url }}"
+             alt="{{ product.image.alt }}"
+             class="product-image"
+             />
+        <div class="product-details">
+          <p class="product-name">{{ product.title }}</p>
+          <p class="product-price">{{ product.price | money_with_currency}}</p>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
+  </div>
   {% endfor %}
-    <div>
   {% endif %}
   {% endfor %}
 </section>
