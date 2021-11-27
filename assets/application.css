@@ -40,7 +40,7 @@ a {
   gap: 15px;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 20px;
   z-index: 1;
   background-color: white;
   width: 100%;
