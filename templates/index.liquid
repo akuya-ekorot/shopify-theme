@@ -1,10 +1,12 @@
 <section>
   {% for collection in collections %}
   {% if collection.title != "All Products" %}
-  <h2 class="section-heading">{{ collection.title }}</h2>
-  <span> See more → </span>
+  <div>
+    <h2 class="section-heading">{{ collection.title }}</h2>
+    <span> See more → </span>
+  </div>
   <div class="product-grid">
-  {% for product in collection.products limit:3 %}
+    {% for product in collection.products limit:3 %}
     <a class="product" href="{{ product.url }}">
       <div>
         <img
@@ -18,7 +20,7 @@
         </div>
       </div>
     </a>
-  {% endfor %}
+    {% endfor %}
   </div>
   {% endif %}
   {% endfor %}
@@ -31,19 +33,19 @@
 <h2 class="section-heading">ALL PRODUCTS</h2>
 <section class="product-grid">
   {% for product in collections.all-products.products %}
-  	<a class="product" href="{{ product.url }}">
-      <div>
-        <img
-             src="{{ product | image_url }}"
-             alt="Nomad Cuff Timepiece by Sued Watches"
-             class="product-image"
-             />
-        <div class="product-details">
-          <p class="product-name">{{ product.title }}</p>
-          <p class="product-price">{{ product.price | money_with_currency}}</p>
-        </div>
+  <a class="product" href="{{ product.url }}">
+    <div>
+      <img
+           src="{{ product | image_url }}"
+           alt="Nomad Cuff Timepiece by Sued Watches"
+           class="product-image"
+           />
+      <div class="product-details">
+        <p class="product-name">{{ product.title }}</p>
+        <p class="product-price">{{ product.price | money_with_currency}}</p>
       </div>
-  	</a>
+    </div>
+  </a>
   {% endfor %}
-  
+
 </section>
