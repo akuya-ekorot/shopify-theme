@@ -49,6 +49,7 @@ a {
 /*   gap: 30px; */
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: space-evenly;
+  align-content: space-evenly;
 }
 /* 
 @media only screen and (max-width: 975px) {
