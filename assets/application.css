@@ -439,6 +439,7 @@ a {
   flex-direction: row;
   gap: 30px;
   align-items: center;
+  background-color: darkgray;
 }
 
 /* .size-guide-animation-container {
