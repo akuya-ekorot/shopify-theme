@@ -497,5 +497,9 @@ li {
     font-size: smaller;
     padding: 10px 0;
   }
+  
+  .nav {
+    top: 36px;
+  }
 
 }
