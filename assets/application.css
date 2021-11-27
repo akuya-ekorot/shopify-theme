@@ -225,6 +225,7 @@ a {
 .product-wrist-size-input {
   border: 1px solid darkgray;
   font-family: "Montserrat", sans-serif;
+  height: 60px;
 }
 
 .product-variant {
