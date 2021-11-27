@@ -525,6 +525,6 @@ li {
   }
 
   .product-image {
-    width: clamp(200px, 100%, 300px)
+    width: clamp(200px, 100%, 250px)
 
   }
