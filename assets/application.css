@@ -20,7 +20,7 @@ a {
 
 .nav-alert {
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   font-size: normal;
   padding: 15px 0;
@@ -42,26 +42,22 @@ a {
   position: sticky;
   top: 49px;
   z-index: 1;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   width: 100%;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .nav {
     -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
-    background-color: rgba(255, 255, 255, 0.7);  
+    backdrop-filter: blur(50px);  
   }
   .nav-alert {
     -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);
-    background-color: rgba(0, 0, 0, 0.9); 
+    backdrop-filter: blur(50px); 
   }
   .product div:hover .product-details {
-    opacity: 1;
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
-    background-color: rgba(255, 255, 255, 0.5);
   }
 
 }
