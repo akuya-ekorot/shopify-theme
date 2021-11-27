@@ -52,9 +52,12 @@ a {
     backdrop-filter: blur(50px);
     background-color: rgba(255, 255, 255, 0.7);  
   }
-  .warning {
-    display: none;
+  .nav-alert {
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.7); 
   }
+    
 }
 
 .logo {
