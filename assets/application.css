@@ -219,6 +219,7 @@ a {
   flex-direction: column;
   gap: 2px;
   flex: 1;
+  font-size: smaller;
 }
 
 .product-variant {
