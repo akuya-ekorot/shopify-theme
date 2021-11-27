@@ -50,6 +50,12 @@ a {
   grid-template-columns: repeat(auto-fill, 300px);
 }
 
+@media only screen and (max-width: 975px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 500px);
+  }
+}
+
 .product {
   position: relative;
 }
