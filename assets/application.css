@@ -503,5 +503,8 @@ li {
     gap: 10px;
     padding-bottom: 15px;
   }
+  
+  .size-guide-container {
+    padding: 15px 15px 0;
 
 }
