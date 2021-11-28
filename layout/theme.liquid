@@ -28,6 +28,11 @@
       <div class="nav-menu">
         {%- for collection in linklists.collections-menu.links -%}
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
+        {%- if collection.links != blank -%}
+        {%- for nest_collection in collection.links -%}
+        <a href="{{ nest_collection.url }}" class="nav-menu-item">{{ collection.title }} </a>
+        {%- endfor -%}
+        {%- endif -%}
         {%- endfor -%}
       </div>
     </section>
