@@ -537,4 +537,8 @@ li {
     height: calc(100% - 20px);
     padding: 10px;
   }
+  
+  .body {
+    padding: 8px;
+  }
 }
