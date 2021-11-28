@@ -25,7 +25,7 @@
       <a href="/" class="logo-container">
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
-      <div class="nav-menu">
+      <nav class="nav-menu">
         {%- for collection in linklists.collections-menu.links -%}
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
         {%- if collection.links != blank -%}
@@ -34,7 +34,7 @@
         {%- endfor -%}
         {%- endif -%}
         {%- endfor -%}
-      </div>
+      </nav>
     </section>
     <div class="body">
       <main role="main">
