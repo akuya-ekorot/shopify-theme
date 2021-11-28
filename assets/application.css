@@ -524,7 +524,7 @@ li {
 
   .product-grid {
     gap: 15px;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 230px));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
   .product-image {
