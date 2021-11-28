@@ -26,7 +26,7 @@
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
       <div class="nav-menu">
-        {% for collection in linklists.collections-menu %}
+        {% for collection in linklists.collections-menu.links %}
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
         {% endfor %}
       </div>
