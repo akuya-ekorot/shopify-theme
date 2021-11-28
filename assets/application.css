@@ -533,7 +533,8 @@ li {
   }
 
   .product-details {
-    width: calc(100% - 30px);
-    height: calc(100% - 30px);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    padding: 10px;
   }
 }
