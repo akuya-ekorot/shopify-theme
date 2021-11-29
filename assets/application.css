@@ -74,10 +74,12 @@ a {
   gap: 15px;
 }
 
-.nav-menu-item, .nav-menu-item-with-children {
+.nav-menu-item, .nav-menu-item-with-children, .nav-child {
   padding: 5px;
   font-size: .9rem;
 }
+
+
 
 .section-heading-container {
   display: flex;
