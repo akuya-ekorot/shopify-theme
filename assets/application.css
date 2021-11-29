@@ -627,7 +627,7 @@ li {
     top: 52px;
     padding: 5px;
     gap: 5px;
-    display: row;
+    flex-direction: row;
   }
   
   
