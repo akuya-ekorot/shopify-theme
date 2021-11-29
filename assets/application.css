@@ -116,6 +116,11 @@ a {
 /*   z-index: 2; */
 }
 
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .section-heading-container {
   display: flex;
   flex-direction: row;
