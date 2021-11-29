@@ -692,12 +692,12 @@ li {
     display: none;
     flex-direction: column;
     width: 100%;
-    justify-content: space-between;
   }
   
   .mobile-nav-menu-item-with-children {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 /*     margin-left: auto; */
   }
     
