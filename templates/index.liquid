@@ -35,13 +35,13 @@
 </div>
 
 <section>
-  {% for collection in linklists.collection-list.links %}
-  {% if collection.title != "All Products" %}
+  {% for link in linklists.collection-list.links %}
+  {% if link.title != "All Products" %}
   <div class="section-heading-container">
-    <a href="{{ collection.url }}">
-      <h2 class="section-heading">{{ collection.title }}</h2>
+    <a href="{{ link.url }}">
+      <h2 class="section-heading">{{ link.title }}</h2>
     </a>
-    <a href="{{ collection.url }}">
+    <a href="{{ link.url }}">
       <span> See more → </span>
     </a>
   </div>
