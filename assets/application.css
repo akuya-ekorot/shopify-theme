@@ -628,7 +628,6 @@ li {
     padding: 5px;
     gap: 5px;
     flex-direction: row;
-    justify-content: center;
     margin-bottom: 15px;
   }
   
