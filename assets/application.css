@@ -634,5 +634,9 @@ li {
     height: 50px;
   }
   
+  .nav-menu {
+    display: none;
+  }
+  
   
 }
