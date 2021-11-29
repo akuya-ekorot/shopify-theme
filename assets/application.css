@@ -10,7 +10,7 @@ body {
 
 .body {
   max-width: 960px;
-  margin: 226px auto 0;
+  margin: 226px auto 60px;
 /*   margin-top: 226px; */
   padding: 15px;
 }
