@@ -38,3 +38,8 @@ function openNavChildren(event) {
     element.style.display = "flex";
   }
 }
+
+function minimizeMobileNav() {
+  var menu = document.getElementsByClassName("mobile-nav-menu");
+  menu[0].style.display = "none";
+}
