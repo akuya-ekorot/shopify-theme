@@ -20,6 +20,10 @@ body {
   flex: 1;
 }
 
+.collection-description div {
+  flex: 1;
+}
+
 .body {
   max-width: 960px;
   margin: 180px auto 60px;
