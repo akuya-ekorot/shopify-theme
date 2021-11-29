@@ -39,8 +39,9 @@ a {
   padding-bottom: 30px;
   margin-bottom: 30px;
   gap: 15px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  position: fixed;
+/*   position: -webkit-sticky; /* Safari */
+  position: sticky; */
   top: 49px;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.96);
@@ -534,7 +535,7 @@ a {
 }
 
 .size-guide-description {
-  width: 300px;
+/*   width: 300px; */
 /*   flex: 1; */
 }
 
