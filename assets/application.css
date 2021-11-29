@@ -538,8 +538,8 @@ a {
 
 .size-guide-description {
   margin-left: auto;
-  width: 100px;
-/*   flex: 1; */
+/*   width: 100px; */
+  flex: 1;
 }
 
 li {
