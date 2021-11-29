@@ -678,6 +678,7 @@ li {
     left: 0;
     width: 100%;
     height: 100vh;
+    padding-top: 15px;
   }
   
   .mobile-nav-menu-item, .mobile-nav-menu-item-with-children {
