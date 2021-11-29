@@ -17,10 +17,9 @@ body {
 
 .collection-description ul {
   font-size: smaller;
-  flex: 1;
 }
 
-.collection-description div {
+.collection-description div, .collection-description p {
   flex: 1;
 }
 
