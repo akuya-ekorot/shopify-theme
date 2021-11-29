@@ -23,3 +23,13 @@ function openMobileNav() {
   var menu = document.getElementsByClassName("mobile-nav-menu");
   menu[0].style.display = "block";
 }
+
+function openNavChildren(event) {
+  var id = event.target.id;
+}
+
+document.addEventListener('click', function(e) {
+  e = e || window.event;
+  var target = e.target || e.srcElement,
+      text = target.textContent || target.innerText;   
+}, false);
