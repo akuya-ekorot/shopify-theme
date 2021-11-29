@@ -680,5 +680,9 @@ li {
     height: 100vh;
   }
   
+  .mobile-nav-dropdown-container {
+    display: none;
+  }
+  
   
 }
