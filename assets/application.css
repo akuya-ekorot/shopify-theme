@@ -8,6 +8,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.hamburger-icon {
+  display: none;
+}
+
 .collection-description {
   margin-bottom: 60px;
   display: flex;
@@ -640,6 +644,11 @@ li {
   }
   
   .nav-menu-mobile {
+    margin-left: auto;
+  }
+  
+  .hamburger-icon {
+    display: block;
     margin-left: auto;
   }
   
