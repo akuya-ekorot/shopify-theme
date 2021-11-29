@@ -534,8 +534,8 @@ a {
 }
 
 .size-guide-description {
-/*   width: 300px; */
-  flex: 1;
+  width: 300px;
+/*   flex: 1; */
 }
 
 li {
