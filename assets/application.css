@@ -681,7 +681,7 @@ li {
     padding-top: 15px;
   }
   
-  .mobile-nav-menu-item, .mobile-nav-menu-item-with-children {
+  .mobile-nav-menu-item, .mobile-nav-menu-item-with-children, .mobile-nav-menu-child {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid darkgray;
