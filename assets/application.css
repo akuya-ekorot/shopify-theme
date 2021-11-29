@@ -10,7 +10,7 @@ body {
 
 .body {
   max-width: 960px;
-  margin: auto;
+  margin: calc(49 + 177) auto;
   padding: 15px;
 }
 
