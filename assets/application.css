@@ -630,5 +630,9 @@ li {
     flex-direction: row;
   }
   
+  .logo {
+    height: 50px;
+  }
+  
   
 }
