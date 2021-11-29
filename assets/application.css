@@ -700,6 +700,10 @@ li {
     justify-content: center;
 /*     margin-left: auto; */
   }
+  
+  .mobile-nav-menu-item-with-children div {
+    margin-left: auto;
+  }
     
   
   
