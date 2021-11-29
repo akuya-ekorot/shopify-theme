@@ -524,10 +524,10 @@ a {
   padding-right: 20px;
 }
 
-/* .size-guide-animation-container {
+.size-guide-animation-container {
   flex: 1;
 }
- */
+
 .size-guide-animation {
   flex: 1;
   object-fit: cover;
