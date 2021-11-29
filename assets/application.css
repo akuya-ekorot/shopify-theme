@@ -119,6 +119,7 @@ a {
 .hero-container {
   display: flex;
   flex-direction: row;
+  gap: 15px;
 }
 
 .about-us-container {
