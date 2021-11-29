@@ -680,9 +680,15 @@ li {
     height: 100vh;
   }
   
+  .mobile-nav-menu-item {
+    padding: 20px 0;
+  }
+  
   .mobile-nav-dropdown-container {
     display: none;
   }
+  
+  
   
   
 }
