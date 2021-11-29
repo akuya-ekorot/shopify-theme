@@ -90,6 +90,7 @@ a {
   position: absolute;
   top: 28px;
   left: 0;
+  background-color: white;
 }
 
 /* .nav-menu-item-with-children:hover .dropdown-container {
