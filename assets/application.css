@@ -71,7 +71,6 @@ a {
 .nav-menu {
   display: flex;
   flex-direction: row;
-  gap: 30px;
   position: relative;
 }
 
