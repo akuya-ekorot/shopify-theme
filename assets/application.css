@@ -81,7 +81,7 @@ a {
 /*   margin: 0 30px; */
   padding:  5px;
   font-size: .9rem;
-  flex: 1;
+/*   flex: 1; */
 }
 
 .nav-menu-child {
