@@ -49,14 +49,14 @@
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
         <a href="{{ collection.url }}">
-        <div class="mobile-nav-menu-item-with-children">
-          {{ collection.title }}
-          <div class="mobile-nav-dropdown-container">
-            {% for child in collection.links %}
-            <a href="{{ child.link }}">{{ child.title }}</a>
-            {% endfor %}
+          <div class="mobile-nav-menu-item-with-children">
+            {{ collection.title }}
+            <div class="mobile-nav-dropdown-container">
+              {% for child in collection.links %}
+              <a href="{{ child.link }}">{{ child.title }}</a>
+              {% endfor %}
+            </div>
           </div>
-        </div>
         </a>
         {% else %}
         <a href="{{ collection.url }}" class="mobile-nav-menu-item">{{ collection.title }}</a>
