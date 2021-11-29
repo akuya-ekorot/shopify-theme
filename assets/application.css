@@ -713,6 +713,7 @@ li {
   
   .dropdown-icon {
     margin-right: 30px;
+    position: absolute;
   }
     
   
