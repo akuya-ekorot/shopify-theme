@@ -23,3 +23,9 @@ function openMobileNav() {
   var menu = document.getElementsByClassName("mobile-nav-menu");
   menu[0].style.display = "block";
 }
+
+function openMobileNavChildren(event) {
+  var a = event.target;
+  var id = a.value;
+  console.log(id);
+}
