@@ -79,6 +79,10 @@ a {
   font-size: .9rem;
 }
 
+.nav-menu-item-with-children {
+  position: relative;
+}
+
 .dropdown-container {
   display: flex;
   flex-direction: column;
