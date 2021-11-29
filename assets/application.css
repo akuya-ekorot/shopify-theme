@@ -17,6 +17,7 @@ body {
 
 .collection-description ul {
   font-size: smaller;
+  flex: 1;
 }
 
 .body {
