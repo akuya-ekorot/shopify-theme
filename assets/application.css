@@ -121,6 +121,10 @@ a {
   flex-direction: row;
 }
 
+.about-us-container {
+  flex: 1;
+}
+
 .section-heading-container {
   display: flex;
   flex-direction: row;
