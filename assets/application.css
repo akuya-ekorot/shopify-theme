@@ -516,7 +516,7 @@ a {
 .size-guide-container {
   display: flex;
   flex-direction: row;
-  flex: 2;
+  flex: 1;
 /*   gap: 30px; */
   background-color: black;
   color: white;
