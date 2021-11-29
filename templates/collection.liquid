@@ -2,6 +2,10 @@
   <div class="section-heading-container">
     <h2 class="section-heading">{{ collection.title }}</h2>
   </div>
+  
+  <div>
+    {{ collection.description }}
+  </div>
   <div class="product-grid">
     {% for product in collection.products %}
     <a class="product" href="{{ product.url }}">
