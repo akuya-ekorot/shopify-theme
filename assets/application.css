@@ -85,6 +85,7 @@ a {
   font-size: .9rem;
   flex: 1;
   max-width: 150px;
+  text-align: center;
 }
 
 .nav-menu-child {
