@@ -534,7 +534,7 @@ a {
 }
 
 .size-guide-description {
-  width: 300px;
+/*   width: 300px; */
   flex: 1;
 }
 
