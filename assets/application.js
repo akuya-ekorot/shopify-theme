@@ -23,23 +23,3 @@ function openMobileNav() {
   var menu = document.getElementsByClassName("mobile-nav-menu");
   menu[0].style.display = "block";
 }
-
-function openNavChildren(event) {
-  var id = event.target;
-  
-  var x = String(id.innerHTML);
-  console.log(x);
-  
-  console.log(document.getElementById(x));
-  
-  
-//   var element = document.getElementById(String(id.innerHTML));
-//   console.log(element);
-//   document.getElementById(id.innerHTML).style.display = "flex";
-}
-
-// document.addEventListener('click', function(e) {
-//   e = e || window.event;
-//   var target = e.target || e.srcElement,
-//       text = target.textContent || target.innerText;   
-// }, false);
