@@ -29,4 +29,7 @@ function openNavChildren(event) {
   var id = a.parentElement.parentElement.firstChild.nextSibling.innerText;
   
   console.log(id);
+  
+  var element = document.getElementById(id);
+  console.log(element);
 }
