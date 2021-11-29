@@ -30,7 +30,7 @@ function openNavChildren(event) {
   var x = String(id.innerHTML);
   console.log(x);
   
-  console.log(document.getElementById("Nomad"));
+  console.log(document.getElementById(x));
   
   
 //   var element = document.getElementById(String(id.innerHTML));
