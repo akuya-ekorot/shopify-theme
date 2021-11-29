@@ -29,7 +29,7 @@
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
         <div class="nav-menu-item-with-children">
-          <a href="{{ collection.url }}">{{ collection.title }} ▾</a>
+          <a href="{{ collection.url }}">{{ collection.title }} ▾↓</a>
           <div class="dropdown-container">
             {% for child in collection.links %}
             <a href="{{ child.url }}" class="nav-menu-child">{{ child.title }}</a>
