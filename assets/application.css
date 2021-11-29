@@ -692,6 +692,7 @@ li {
     display: none;
     flex-direction: column;
     width: 100%;
+    justify-content: space-between;
   }
   
   .mobile-nav-menu-item-with-children {
