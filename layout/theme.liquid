@@ -48,8 +48,8 @@
       <nav class="mobile-nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
-        <a href="{{ collection.url }}">
-          <div class="mobile-nav-menu-item-with-children">
+        <a href="{{ collection.url }}" class="mobile-nav-menu-item-with-children">
+          <div>
             {{ collection.title }}
 <!--             <div class="mobile-nav-dropdown-container">
               {% for child in collection.links %}
