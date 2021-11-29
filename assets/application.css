@@ -513,10 +513,10 @@ a {
 /*   padding: 30px 30px 0; */
 }
 
-.size-guide-animation-container {
+/* .size-guide-animation-container {
   flex: 1;
 }
-
+ */
 .size-guide-animation {
   height: 500px;
   object-fit: cover;
