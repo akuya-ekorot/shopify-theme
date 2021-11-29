@@ -527,11 +527,10 @@ a {
 }
 
 .size-guide-animation-container {
-/*   flex: 1; */
+  flex: 1;
 }
 
 .size-guide-animation {
-  flex: 1;
   object-fit: cover;
   height: 500px;
 }
