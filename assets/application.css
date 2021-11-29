@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding: 30px;
+/*   padding: 30px; */
 }
 
 .collection-description ul {
