@@ -14,6 +14,7 @@
     {{ content_for_header }} <!-- Header hook for plugins -->
     {{ 'application.css' | asset_url | stylesheet_tag }}
     {{ 'application.js' | asset_url | script_tag }}
+    <script src="https://kit.fontawesome.com/5519270e52.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <a href="/pages/size-guide">
@@ -25,9 +26,7 @@
       <a href="/" class="logo-container">
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
-      <div class="nav-menu-mobile">
-        ⬅️
-      </div>
+      <i class="fas fa-bars"></i>
       <nav class="nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
