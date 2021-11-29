@@ -76,10 +76,15 @@ a {
   z-index: 2;
 }
 
-.nav-menu-item, .nav-menu-item-with-children, .nav-menu-child {
+.nav-menu-item, .nav-menu-item-with-children{
   margin: 0 30px;
   padding:  5px;
   font-size: .9rem;
+}
+
+.nav-menu-child {
+  font-size: .9rem;
+  padding: 5px;
 }
 
 .nav-menu-item-with-children {
