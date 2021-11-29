@@ -8,6 +8,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.collection-description {
+  margin-bottom: 30px;
+}
+
 .body {
   max-width: 960px;
   margin: 226px auto 60px;
