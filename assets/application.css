@@ -73,6 +73,7 @@ a {
   flex-direction: row;
   position: relative;
   justify-content: center;
+  z-index: 2;
 }
 
 .nav-menu-item, .nav-menu-item-with-children, .nav-menu-child {
