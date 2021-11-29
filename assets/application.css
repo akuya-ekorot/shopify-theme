@@ -705,6 +705,10 @@ li {
     margin-left: auto;
   }
   
+  .mobil-nav-menu-item-with-children a {
+    margin-left: 30px;
+  }
+  
   .dropdown-icon {
     margin-right: 30px;
   }
