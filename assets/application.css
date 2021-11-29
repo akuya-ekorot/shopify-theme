@@ -74,7 +74,7 @@ a {
   gap: 15px;
 }
 
-.nav-menu-item, .nav-menu-item-with-children, .nav-child {
+.nav-menu-item, .nav-menu-item-with-children, .nav-menu-child {
   padding: 5px;
   font-size: .9rem;
 }
