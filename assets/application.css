@@ -527,7 +527,7 @@ a {
 }
 
 .size-guide-animation-container {
-  flex: 1;
+  flex: .5;
 }
 
 .size-guide-animation {
