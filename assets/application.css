@@ -100,7 +100,7 @@ a {
   flex-direction: column;
   position: absolute;
   top: 0;
-  left: calc(100vw / 2);
+  right: calc(100vw / 2);
 /*   left: 0; */
   margin-top: 27px;
   background-color: white;
