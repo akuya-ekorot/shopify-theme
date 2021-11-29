@@ -15,6 +15,7 @@ body {
   gap: 15px;
   color: white;
   background-color: black;
+  padding: 30px;
 }
 
 .collection-description ul {
