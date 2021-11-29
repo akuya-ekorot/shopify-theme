@@ -680,7 +680,7 @@ li {
     height: 100vh;
   }
   
-  .mobile-nav-menu-item {
+  .mobile-nav-menu-item, .mobile-nav-menu-item-with-children {
     padding: 20px 0;
   }
   
