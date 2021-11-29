@@ -72,7 +72,7 @@ a {
   display: flex;
   flex-direction: row;
   position: relative;
-  justify-content: center;
+/*   justify-content: center; */
   z-index: 2;
 }
 
@@ -98,7 +98,6 @@ a {
   left: 0;
   margin-top: 27px;
   background-color: white;
-  align-items: left;
 /*   z-index: 2; */
 }
 
