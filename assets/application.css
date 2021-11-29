@@ -83,6 +83,11 @@ a {
   display: none;
 }
 
+.nav-menu-item-with-children:hover .dropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .section-heading-container {
   display: flex;
   flex-direction: row;
