@@ -695,7 +695,9 @@ li {
   }
   
   .mobile-nav-menu-item-with-children {
-    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+/*     margin-left: auto; */
   }
   
   .fa-caret-down {
