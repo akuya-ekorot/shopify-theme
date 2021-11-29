@@ -12,6 +12,10 @@ body {
   margin-bottom: 30px;
 }
 
+.collection-description ul {
+  font-size: smaller;
+}
+
 .body {
   max-width: 960px;
   margin: 226px auto 60px;
