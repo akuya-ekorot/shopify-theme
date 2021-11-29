@@ -26,7 +26,7 @@ function openMobileNav() {
 
 function openNavChildren(event) {
   var id = event.target;
-  document.getElementById(id).style.display = "flex";
+  document.getElementById(id.innerHTML).style.display = "flex";
 }
 
 // document.addEventListener('click', function(e) {
