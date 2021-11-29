@@ -10,6 +10,9 @@ body {
 
 .collection-description {
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .collection-description ul {
