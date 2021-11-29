@@ -86,6 +86,7 @@ a {
 .dropdown-container {
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 
 .nav-menu-item-with-children:hover .dropdown-container {
