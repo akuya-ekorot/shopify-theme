@@ -522,9 +522,9 @@ a {
   object-fit: cover;
 }
 
-/* .size-guide-description {
-  flex: 1;
-} */
+.size-guide-description {
+  width: 300px;
+}
 
 li {
   margin-bottom: 15px;
