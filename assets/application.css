@@ -76,7 +76,7 @@ a {
 }
 
 .nav-menu-item, .nav-menu-item-with-children, .nav-menu-child {
-  padding: 5px;
+  padding: 5px 15px;
   font-size: .9rem;
 }
 
