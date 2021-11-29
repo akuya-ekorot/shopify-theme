@@ -233,7 +233,7 @@ a {
   flex-direction: column;
   gap: 15px;
   position: sticky;
-/*   top: 226px; */
+  top: 226px;
 }
 
 .product-featured-image {
