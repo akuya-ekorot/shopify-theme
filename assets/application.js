@@ -28,6 +28,7 @@ function openNavChildren(event) {
   var id = event.target;
   
   console.log(id.innerHTML);
+  document.getElementById(`${id.innerHTML}`);
 //   document.getElementById(id.innerHTML).style.display = "flex";
 }
 
