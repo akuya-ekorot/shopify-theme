@@ -17,3 +17,11 @@ function showDivs(n) {
 
   x[slideIndex].style.display = "block";
 }
+
+
+function openMobileNav() {
+  var menu = document.getElementByClassName("mobile-nav-menu");
+
+  menu.style.display = "block";
+  
+}
