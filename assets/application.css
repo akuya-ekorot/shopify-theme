@@ -625,5 +625,6 @@ li {
   
   .nav {
     top: 48px;
+    padding: 5px;
   }
 }
