@@ -79,7 +79,9 @@ a {
   font-size: .9rem;
 }
 
-
+.drop-down-container {
+  display: none;
+}
 
 .section-heading-container {
   display: flex;
