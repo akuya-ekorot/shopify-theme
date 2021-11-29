@@ -26,12 +26,18 @@
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
       <nav class="nav-menu">
-        {%- for collection in linklists.collections-menu.links -%}
+        {% for collection in linklists.collections-menu.links %}
+        {% if collection.links != blank %}
+        <a href="{{ collection.url }}" class="nav-menu-item-with-children">
+          <span>{{ collection.title }}</span>
+          <div class="dropdown-container">
+            {% for child in collection.links %}
+            <a href="{{ child.url }}" class="nav-menu-child">{{ child.title }}</a>
+            {% endfor %}
+          </div>
+        </a>
+        {% else %}
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
-        {%- if collection.links != blank -%}
-        {%- for nest_collection in collection.links -%}
-        <a href="{{ nest_collection.url }}" class="nav-menu-item">{{ nest_collection.title }} </a>
-        {%- endfor -%}
         {%- endif -%}
         {%- endfor -%}
       </nav>
@@ -43,3 +49,14 @@
     </div>
   </body>
 </html>
+
+
+<!-- 
+{%- for collection in linklists.collections-menu.links -%}
+{%- if collection.links != blank -%}
+<a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
+{%- for nest_collection in collection.links -%}
+<a href="{{ nest_collection.url }}" class="nav-menu-item">{{ nest_collection.title }} </a>
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%} -->
