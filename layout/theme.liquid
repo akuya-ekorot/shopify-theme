@@ -26,7 +26,9 @@
       <a href="/" class="logo-container">
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
-      <i class="fas fa-bars"></i>
+      <div class="hamburger-icon">
+        <i class="fas fa-bars"></i>
+      </div>
       <nav class="nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
