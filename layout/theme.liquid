@@ -48,7 +48,7 @@
       <nav class="mobile-nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
-        <a  class="mobile-nav-menu-item-with-children" onclick="openNavChildren()">
+        <a  class="mobile-nav-menu-item-with-children" onclick="openNavChildren(event)">
           {{ collection.title }}
         </a>
         <div class="mobile-nav-dropdown-container" id="{{ collection.title }}">
