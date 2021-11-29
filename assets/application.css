@@ -19,8 +19,12 @@ body {
   font-size: smaller;
 }
 
-.collection-description div, .collection-description p {
+.collection-description div {
   flex: 1;
+}
+
+.collection-description p {
+  flex: 2;
 }
 
 .body {
