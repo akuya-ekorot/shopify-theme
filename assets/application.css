@@ -13,8 +13,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  color: white;
-  background-color: black;
   padding: 30px;
 }
 
