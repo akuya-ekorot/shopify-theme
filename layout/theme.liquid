@@ -26,7 +26,7 @@
       <a href="/" class="logo-container">
         <img src="https://cdn.shopify.com/s/files/1/0612/9388/7745/files/logo-white.svg?v=1637837600" alt="SUED logo" class="logo" />
       </a>
-      <div class="hamburger-icon">
+      <div class="hamburger-icon" onclick="openMobileNav()">
         <i class="fas fa-bars"></i>
       </div>
       <nav class="nav-menu">
@@ -44,6 +44,13 @@
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
         {%- endif -%}
         {%- endfor -%}
+      </nav>
+      <nav class="mobile-nav-menu">
+        {% for collection in linklists.collections-menu.links %}
+        {% if collection.links != blank %}
+        <a href="{{ collection.url }}" class="mobile-nav-menu-item">{{ collection.title }}</a>
+        {% endif %}
+        {% endfor %}
       </nav>
     </section>
     <div class="body">
