@@ -28,14 +28,14 @@
       <nav class="nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
-        <a href="{{ collection.url }}" class="nav-menu-item-with-children">
-          <span>{{ collection.title }}</span>
+        <div class="nav-menu-item-with-children">
+          <a href="{{ collection.url }}">{{ collection.title }}</a>
           <div class="dropdown-container">
             {% for child in collection.links %}
             <a href="{{ child.url }}" class="nav-menu-child">{{ child.title }}</a>
             {% endfor %}
           </div>
-        </a>
+        </div>
         {% else %}
         <a href="{{collection.url}}" class="nav-menu-item">{{collection.title}}</a>
         {%- endif -%}
