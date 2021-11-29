@@ -667,7 +667,10 @@ li {
     font-size: 24px;
   }
   
-  .mobile-nav
+  .mobile-nav-menu {
+    background-color: white;
+    position: absolute;
+  }
   
   
 }
