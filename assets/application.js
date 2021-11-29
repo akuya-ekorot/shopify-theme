@@ -24,7 +24,7 @@ function openMobileNav() {
   menu[0].style.display = "block";
 }
 
-function openMobileNavChildren(event) {
+function openNavChildren(event) {
   var a = event.target;
   var id = a.value;
   console.log(id);
