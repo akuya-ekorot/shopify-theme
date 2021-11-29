@@ -694,6 +694,10 @@ li {
     width: 100%;
   }
   
+  .mobile-nav-menu-item-with-children {
+    margin-left: auto;
+  }
+  
   .fa-caret-down {
     margin-left: auto;
   }
