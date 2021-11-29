@@ -99,8 +99,8 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-/*   top: 0;
-  left: calc(960px / -2); */
+  top: 0;
+/*   left: calc(960px / -2); */
 /*   left: 0; */
 /*   margin-top: 27px; */
 /*   background-color: white; */
