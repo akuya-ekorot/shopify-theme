@@ -650,6 +650,7 @@ li {
   .hamburger-icon {
     display: block;
     margin-left: auto;
+    height: 50px;
   }
   
   
