@@ -26,6 +26,7 @@ function openMobileNav() {
 
 function openNavChildren(event) {
   var a = event.target;
-  var id = a.parentElement;
-  console.log(id.innerHTML);
+  var id = a.value;
+  
+  console.log(id);
 }
