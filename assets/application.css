@@ -92,9 +92,9 @@ a {
   left: 0;
 }
 
-.nav-menu-item-with-children:hover .dropdown-container {
+/* .nav-menu-item-with-children:hover .dropdown-container {
   display: block;
-}
+} */
 
 .section-heading-container {
   display: flex;
