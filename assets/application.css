@@ -98,6 +98,7 @@ a {
   left: 0;
   margin-top: 27px;
   background-color: white;
+  align-items: left;
 /*   z-index: 2; */
 }
 
