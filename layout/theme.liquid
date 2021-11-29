@@ -53,7 +53,7 @@
         </a>
         <div class="mobile-nav-dropdown-container">
           {% for child in collection.links %}
-          <a href="{{ child.link }}">{{ child.title }}</a>
+          <a href="{{ child.link }}" class="mobile-nav-menu-child">{{ child.title }}</a>
           {% endfor %}
         </div>
         {% else %}
