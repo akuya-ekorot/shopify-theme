@@ -98,9 +98,9 @@ a {
 .nav-menu-item-with-children:hover .dropdown-container {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 0;
-  left: calc(960px / -2);
+/*   position: absolute; */
+/*   top: 0;
+  left: calc(960px / -2); */
 /*   left: 0; */
   margin-top: 27px;
   background-color: white;
