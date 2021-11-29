@@ -51,7 +51,7 @@
         <a href="{{ collection.url }}" class="mobile-nav-menu-item-with-children" onclick="openNavChildren()">
           {{ collection.title }}
         </a>
-        <div class="mobile-nav-dropdown-container">
+        <div class="mobile-nav-dropdown-container" id="{{ collection.title }}">
           {% for child in collection.links %}
           <a href="{{ child.link }}" class="mobile-nav-menu-child">{{ child.title }}</a>
           {% endfor %}
