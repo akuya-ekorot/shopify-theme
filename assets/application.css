@@ -689,7 +689,8 @@ li {
   }
   
   .mobile-nav-dropdown-container {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
   
   
