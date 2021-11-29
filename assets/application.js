@@ -20,8 +20,7 @@ function showDivs(n) {
 
 
 function openMobileNav() {
-  var menu = document.getElementByClassName("mobile-nav-menu");
+  var menu = document.getElementsByClassName("mobile-nav-menu");
 
   menu.style.display = "block";
-  
 }
