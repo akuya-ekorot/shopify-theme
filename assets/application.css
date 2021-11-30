@@ -796,11 +796,11 @@ li {
   .collection-description {
     flex-direction: column;
     gap: 0;
+    margin-bottom: 30px;
   }
 
   .collection-description li {
     margin-bottom: 5px;
-    margin-bottom: 30px;
   }
 
 
