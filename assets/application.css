@@ -728,6 +728,10 @@ li {
     font-size: smaller;
     justify-content: center;
   }
+  
+  .product-image {
+    height: clamp(150px, 100%, 350px);
+  }
 
 
 
