@@ -22,7 +22,7 @@ function showDivs(n) {
 function openMobileNav() {
   var menu = document.getElementsByClassName("mobile-nav-menu");
   
-  if (menu.style.display == "none") {
+  if (menu[0].style.display == "none") {
     menu[0].style.display = "flex";
   } else {
     menu[0].style.display = "none";
