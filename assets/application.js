@@ -29,7 +29,19 @@ function openMobileNav() {
     console.log("it clicks like the Khoisan");
     menu[0].style.display = "none";
   } 
+}
 
+
+function closeMobileNav() {
+  var menu = document.getElementsByClassName("mobile-nav-menu");
+  menu[0].style.display = "none";
+  
+  if (menu[0].style.display == "flex") {
+    menu[0].style.display = "none";
+  } else {
+    console.log("it clicks like the Khoisan");
+    menu[0].style.display = "flex";
+  } 
 }
 
 function openNavChildren(event) {
