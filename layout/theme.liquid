@@ -48,6 +48,9 @@
       <nav class="mobile-nav-menu">
         {% for collection in linklists.collections-menu.links %}
         {% if collection.links != blank %}
+        <div class="close-icon">
+          <i class="fas fa-times"></i>
+        </div>
         <div class="mobile-nav-menu-item-with-children">
           <a href="{{ collection.url }}" onClick="minimizeMobileNav()">
             {{ collection.title }}
