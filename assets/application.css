@@ -71,6 +71,7 @@ a {
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.96);
   width: 100%;
+  text-transform: uppercase;
 }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
