@@ -780,6 +780,10 @@ li {
   .product-product-details-container li {
     margin-bottom: 5px;
   }
+  
+  .size-guide-container {
+    font-size: smaller;
+  }
 
   .product-options {
     width: 100%
