@@ -237,8 +237,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  position: sticky;
-  top: 250px;
+/*   position: sticky;
+  top: 250px; */
 }
 
 .product-featured-image {
