@@ -770,7 +770,7 @@ li {
   }
   
   .product-wrist-size-input {
-    width: 50px;
+    flex: 1;
   }
 
 
