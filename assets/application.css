@@ -772,6 +772,10 @@ li {
   .product-wrist-size-input {
     flex: 1;
   }
+  
+  .product-options {
+    width: 100%
+  }
 
 
 
