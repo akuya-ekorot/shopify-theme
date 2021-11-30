@@ -802,7 +802,10 @@ li {
   .collection-description li {
     margin-bottom: 5px;
   }
-
+  
+  .product-grid {
+    margin-bottom: 30px;
+  }
 
 
 
