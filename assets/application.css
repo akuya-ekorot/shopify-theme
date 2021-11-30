@@ -682,7 +682,7 @@ li {
   }
   
   .close-icon {
-    align-self: right;
+    align-self: end;
   }
 
   .mobile-nav-menu-item, .mobile-nav-menu-item-with-children, .mobile-nav-menu-child {
