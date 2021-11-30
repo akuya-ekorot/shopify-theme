@@ -741,6 +741,7 @@ li {
   .product-details {
     position: static;
     opacity: 1;
+    gap: 10px;
   }
 
 
