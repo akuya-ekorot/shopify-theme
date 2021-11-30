@@ -680,6 +680,10 @@ li {
     height: 100vh;
     padding-top: 15px;
   }
+  
+  .close-icon {
+    align-self: right;
+  }
 
   .mobile-nav-menu-item, .mobile-nav-menu-item-with-children, .mobile-nav-menu-child {
     text-align: center;
