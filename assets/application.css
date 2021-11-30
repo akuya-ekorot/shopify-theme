@@ -677,7 +677,6 @@ li {
     width: 100%;
     height: 100vh;
     padding-top: 15px;
-    text-transform: capitalize;
   }
 
   .close-icon {
@@ -690,6 +689,7 @@ li {
     width: 100%;
     border-bottom: 1px solid darkgray;
     padding: 20px 0;
+    text-transform: capitalize;
   }
 
   .mobile-nav-dropdown-container {
