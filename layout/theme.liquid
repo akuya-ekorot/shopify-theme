@@ -53,7 +53,7 @@
         {% if collection.links != blank %}
 
         <div class="mobile-nav-menu-item-with-children">
-          <a href="{{ collection.url }}" onClick="minimizeMobileNav()">
+          <a href="{{ collection.link }}" onClick="minimizeMobileNav()">
             {{ collection.title }}
           </a>
           <div class="dropdown-icon" onclick="openNavChildren(event)">
