@@ -41,8 +41,13 @@
         <h2>How to measure your wrist size</h2>
         <ol>
           <li>Grab a tape measure or a paper/string and ruler.</li>
+          
+          {% if product.title contains "Cuff" %}
           <li>Measure the smallest part of your wrist with no allowance. <strong><em>(Part A)</em></strong></li>
           <li>Measure 4 inches or 10 centimeters from the smallest part of your wrist towards the elbow, with no allowance. <strong><em>(Part B)</em></strong></li>
+          {% else %}
+          <li>Measure the smallest part of your wrist with no allowance. <strong><em>(Wrist Size)</em></strong></li>
+          {% endif %}
         </ol>
       </div>
     </div>
