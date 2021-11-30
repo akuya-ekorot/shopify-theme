@@ -780,7 +780,10 @@ li {
   .product-wrist-size {
     width: 20%
   }
-
+  
+  .collection-description {
+    flex-direction: column;
+  }
 
 
 
