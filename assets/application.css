@@ -715,8 +715,16 @@ li {
     right: 15px;
   }
   
+  
+  
+/* 	BODY */
+  
   .body {
     margin-top: 10vh;
+  }
+  
+  .section-heading-container {
+   margin-top: 15px;
   }
     
   
