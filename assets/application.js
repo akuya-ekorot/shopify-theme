@@ -3,7 +3,7 @@ function currentDiv(n) {
 }
 
 function showDivs(n) {
-  const x = document.getElementsByClassName("product-featured-image"); //get array of all featured images
+  const x = document.getElementsByClassName("product-featured-image");
 
   if (n > x.length) {
     slideIndex = 1;
