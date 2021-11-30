@@ -735,7 +735,7 @@ li {
   }
   
   .product-details {
-    position: relative;
+    position: static;
   }
 
 
