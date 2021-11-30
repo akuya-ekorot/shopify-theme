@@ -731,6 +731,7 @@ li {
   
   .product-image {
     height: clamp(150px, 100%, 350px);
+    width: clamp(150px, 100%, 350px);
   }
 
 
