@@ -740,6 +740,7 @@ li {
   
   .product-details {
     position: static;
+    opacity: 1;
   }
 
 
