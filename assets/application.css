@@ -762,6 +762,11 @@ li {
   .product-product {
     flex-direction: column;
   }
+  
+  .product-featured-image {
+    height: clamp(150px, 100%, 455px);
+    width: clamp(150px, 100%, 455px);
+  }
 
 
 
