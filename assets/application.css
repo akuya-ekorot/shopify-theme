@@ -775,8 +775,10 @@ li {
   .product-product-details-container ul {
    	padding: 20px;
     margin: 0px;
-/*     font-size: smaller; */
-    
+  }
+  
+  .product-product-details-container li {
+    margin-bottom: 5px;
   }
 
   /*   .product-wrist-size-input {
