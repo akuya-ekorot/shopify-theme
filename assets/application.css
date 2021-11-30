@@ -746,6 +746,10 @@ li {
     opacity: 1;
     gap: 10px;
   }
+  
+  .product {
+    border: 1px solid darkgray;
+  }
 
 
 
