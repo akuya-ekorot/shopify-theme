@@ -670,7 +670,6 @@ li {
   .mobile-nav-menu {
     display: none;
     flex-direction: column;
-    /*     gap: 15px; */
     align-items: center;
     background-color: white;
     position: absolute;
