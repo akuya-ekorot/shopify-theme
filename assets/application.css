@@ -668,7 +668,6 @@ li {
   }
 
   .mobile-nav-menu {
-    display: none;
     flex-direction: column;
     align-items: center;
     background-color: white;
