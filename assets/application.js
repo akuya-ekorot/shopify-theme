@@ -26,6 +26,7 @@ function openMobileNav() {
   if (menu[0].style.display == "none") {
     menu[0].style.display = "flex";
   } else {
+    console.log("it clicks like the Khoisan");
     menu[0].style.display = "none";
   } 
 
