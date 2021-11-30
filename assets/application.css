@@ -678,7 +678,7 @@ li {
     height: 100vh;
     padding-top: 15px;
   }
-  
+
   .close-icon {
     align-self: end;
     padding: 10px 30px;
@@ -731,25 +731,29 @@ li {
     font-size: smaller;
     justify-content: center;
   }
-  
+
   .product-grid {
     gap: 30px;
   }
-  
+
   .product-image {
     height: clamp(150px, 100%, 455px);
     width: clamp(150px, 100%, 455px);
   }
-  
+
   .product-details {
     position: static;
     opacity: 1;
     gap: 10px;
   }
-  
+
   .product {
     border: 1px solid darkgray;
   }
+
+
+
+  /*   PRODUCT PAGE */
 
 
 
