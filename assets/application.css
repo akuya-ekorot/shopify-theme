@@ -784,6 +784,10 @@ li {
   .collection-description {
     flex-direction: column;
   }
+  
+  .collection-description li {
+    margin-bottom: 5px;
+  }
 
 
 
