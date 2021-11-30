@@ -26,7 +26,8 @@ function openMobileNav() {
     menu[0].style.display = "flex";
   } else {
     menu[0].style.display = "none";
-  }  
+  } 
+
 }
 
 function openNavChildren(event) {
