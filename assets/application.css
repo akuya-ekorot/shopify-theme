@@ -683,7 +683,7 @@ li {
   
   .close-icon {
     align-self: end;
-    padding-right: 30px;
+    padding: 30px;
   }
 
   .mobile-nav-menu-item, .mobile-nav-menu-item-with-children, .mobile-nav-menu-child {
