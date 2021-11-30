@@ -53,7 +53,7 @@
         {% if collection.links != blank %}
 
         <div class="mobile-nav-menu-item-with-children">
-          <a href="{{ collection.link }}" onClick="minimizeMobileNav()">
+          <a href="{{ collection.url }}" onClick="minimizeMobileNav()">
             {{ collection.title }}
           </a>
           <div class="dropdown-icon" onclick="openNavChildren(event)">
@@ -63,7 +63,7 @@
 
         <div class="mobile-nav-dropdown-container" id="{{ collection.title }}">
           {% for child in collection.links %}
-          <a href="{{ child.link }}" class="mobile-nav-menu-child" onClick="minimizeMobileNav()">{{ child.title }}</a>
+          <a href="{{ child.url }}" class="mobile-nav-menu-child" onClick="minimizeMobileNav()">{{ child.title }}</a>
           {% endfor %}
         </div>
         {% else %}
