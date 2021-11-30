@@ -733,6 +733,10 @@ li {
     height: clamp(150px, 100%, 455px);
     width: clamp(150px, 100%, 455px);
   }
+  
+  .product-details {
+    position: relative;
+  }
 
 
 
