@@ -783,6 +783,7 @@ li {
   
   .collection-description {
     flex-direction: column;
+    gap: 0;
   }
   
   .collection-description li {
