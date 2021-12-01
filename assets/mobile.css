@@ -53,6 +53,7 @@
   
   .cart-action {
     flex-direction: column;
+    align-items: center;
   }
   
   .nav-alert {
