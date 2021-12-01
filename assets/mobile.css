@@ -67,6 +67,10 @@
     gap: 15px;
   }
   
+  .cart-subtotal-price {
+    min-width: 24px;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
