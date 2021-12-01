@@ -25,9 +25,11 @@
     <section class="nav">
       
       <div class="cart-icon">
+        {% if cart.items > 0 %}
         <div class="cart-icon-indicator">
           {{ cart.items.size }}
         </div>
+        {% endif %}
         <i class="fas fa-shopping-bag"></i>        
       </div>
       <a href="/" class="logo-container">
