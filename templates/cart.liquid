@@ -63,6 +63,10 @@
         {% endif %}
       </div>
       {% endfor %}
+      <div class="cart-subtotal-entry">
+        <span class="cart-subtotal-name">Cart Total</span>
+        <span class="cart-subtotal-price">{{ cart.total_price | money }}</span>
+      </div>
     </div>
     <div class="cart-action">
       <button class="update-cart" name="update" type="submit">UPDATE CART</button>
