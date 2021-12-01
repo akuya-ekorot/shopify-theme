@@ -10,7 +10,7 @@ body {
 
 .cart-icon {
   position: absolute;
-  font-size: large;
+  font-size: 2rem;
   right: 20px;
   top: 20px;
 }
