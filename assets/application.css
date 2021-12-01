@@ -96,8 +96,6 @@ a {
   margin-bottom: 30px;
   gap: 15px;
   position: fixed;
-    position: -webkit-sticky;
-    position: sticky;
   top: 49px;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.96);
