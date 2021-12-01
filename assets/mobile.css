@@ -18,6 +18,7 @@
   
   .cart-table-entry {
     padding: 10px 0;
+    gap: 15px;
   }
   
   .cart-item {
