@@ -22,7 +22,7 @@ function showDivs(n) {
 function openMobileNav() {
   var menu = document.getElementsByClassName("mobile-nav-menu");
   menu[0].style.display = "none";
-  
+
   if (menu[0].style.display == "none") {
     menu[0].style.display = "flex";
   } else {
@@ -33,14 +33,25 @@ function openMobileNav() {
 
 function openNavChildren(event) {
   var a = event.target;
-  console.log(a);
+//   console.log(a);
   var id = a.parentElement.parentElement.firstChild.nextSibling.innerText;
-  console.log(id);
-  
-  console.log(id.split(" "));
+//   console.log(id);
+
+//   console.log(id.split(" "));
+
+
+  var str = "foo bar baz"
+
+  console.log(
+
+    str.split(' ')
+    .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
+    .join(' ')
+
+  )
 
   var element = document.getElementById(id);
-    console.log("it clicks like the Khoisan");
+  console.log("it clicks like the Khoisan");
 
   if (element.style.display == "flex") {
     element.style.display = "none";
