@@ -63,6 +63,10 @@
     align-self: stretch;
   }
   
+  .cart-subtotal-entry, .cart-cart-total-entry {
+    gap: 15px;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
