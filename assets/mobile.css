@@ -51,6 +51,10 @@
     font-size: smaller;
   }
   
+  .cart-action {
+    flex-direction: column;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
