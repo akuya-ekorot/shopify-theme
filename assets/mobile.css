@@ -8,6 +8,10 @@
     gap: 30px;
   }
   
+  .cart-heading {
+    text-align: center;
+  }
+  
   .cart-icon {
     right: 20vw;
   }
