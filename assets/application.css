@@ -21,6 +21,13 @@ body {
  }
 }
 
+@media only screen and (max-width: 960px) {
+ .cart-icon {
+   right: 20vw;
+ }
+}
+
+
 .cart-icon-indicator {
   font-size: small;
   position: absolute;
