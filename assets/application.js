@@ -40,7 +40,7 @@ function openNavChildren(event) {
 //   console.log(id.split(" "));
 
 
-  var str = "foo bar baz"
+  var str = id;
 
   console.log(
 
