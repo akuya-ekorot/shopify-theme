@@ -105,22 +105,6 @@ a {
   text-transform: uppercase;
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .nav {
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px);  
-  }
-  .nav-alert {
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(50px); 
-  }
-  .product div:hover .product-details {
-    -webkit-backdrop-filter: blur(15px);
-    backdrop-filter: blur(15px);
-  }
-
-}
-
 .logo {
   height: 100px;
   object-fit: contain;
