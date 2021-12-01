@@ -54,8 +54,7 @@
         <span class="cart-subtotal-price">{{ cart.original_total_price | money }}</span>
       </div>
       
-      {{ cart.discount_applications }}
-      {% for discount_application in cart.discount_applications.size %}
+      {% for discount_application in cart.discount_applications %}
       <div class="cart-subtotal-entry">
         <span class="cart-subtotal-name">{{ discount_application.title }}</span>
         <span class="cart-subtotal-price">{{ discount_application.value | money }}</span>
