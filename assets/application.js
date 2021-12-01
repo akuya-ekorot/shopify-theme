@@ -33,6 +33,7 @@ function openMobileNav() {
 
 function openNavChildren(event) {
   var a = event.target;
+  console.log(a);
   var id = a.parentElement.parentElement.firstChild.nextSibling.innerText;
 
   var element = document.getElementById(id);
