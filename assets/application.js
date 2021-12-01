@@ -40,25 +40,26 @@ function openNavChildren(event) {
   //   console.log(id.split(" "));
 
 
-  var str = id;
+  function stringify(id) {
+    return (str.split(' ')
+            .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
+            .join(' '));
 
-  str.split(' ')
-  .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
-  .join(' ')
 
 
-  var element = document.getElementById(str);
-  //   console.log("it clicks like the Khoisan");
-  console.log(element);
 
-  if (element.style.display == "flex") {
-    element.style.display = "none";
-  } else {
-    element.style.display = "flex";
+    var element = document.getElementById(str);
+    //   console.log("it clicks like the Khoisan");
+    console.log(element);
+
+    if (element.style.display == "flex") {
+      element.style.display = "none";
+    } else {
+      element.style.display = "flex";
+    }
   }
-}
 
-function minimizeMobileNav() {
-  var menu = document.getElementsByClassName("mobile-nav-menu");
-  menu[0].style.display = "none";
-}
+  function minimizeMobileNav() {
+    var menu = document.getElementsByClassName("mobile-nav-menu");
+    menu[0].style.display = "none";
+  }
