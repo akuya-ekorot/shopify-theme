@@ -17,6 +17,7 @@ body {
 
 .cart-icon-indicator {
   font-size: small;
+  position: absolute;
 }
 
 .hamburger-icon {
