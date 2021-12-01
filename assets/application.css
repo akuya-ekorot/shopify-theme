@@ -528,6 +528,7 @@ a {
 }
 
 .cart-cart-total-entry {
+  padding:30px 0 0;  
   font-weight: bold;
   border-top: 1px solid darkgray;
 }
