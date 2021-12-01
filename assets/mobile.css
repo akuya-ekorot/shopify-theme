@@ -57,6 +57,10 @@
     justify-content: center;
   }
   
+  .cart-checkout, .update-cart {
+    align-self: center;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
