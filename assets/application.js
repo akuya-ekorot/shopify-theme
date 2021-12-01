@@ -36,6 +36,7 @@ function openNavChildren(event) {
   var id = a.parentElement.parentElement.firstChild.nextSibling.innerText;
 
   var element = document.getElementById(id);
+    console.log("it clicks like the Khoisan");
 
   if (element.style.display == "flex") {
     element.style.display = "none";
