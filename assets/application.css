@@ -504,10 +504,14 @@ a {
 }
 
 .cart-subtotal-entry {
-  display: flex;
-  flex-direction: row;
   padding: 60px 0 0;
 }
+
+.cart-discount-entry, .cart-subtotal-entry {
+  display: flex;
+  flex-direction: row;
+}
+  
 
 .cart-subtotal-name {
   flex: 6;
