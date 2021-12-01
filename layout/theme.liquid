@@ -25,7 +25,7 @@
     <section class="nav">
       
       <div class="cart-icon">
-        {% if cart.items > 0 %}
+        {% if cart.items.length > 0 %}
         <div class="cart-icon-indicator">
           {{ cart.items.size }}
         </div>
