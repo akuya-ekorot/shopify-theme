@@ -21,6 +21,7 @@ body {
   background-color: white;
   z-index: 2;
   padding: 2px;
+  border-radius: 50%;
 }
 
 .hamburger-icon {
