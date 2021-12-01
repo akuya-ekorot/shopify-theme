@@ -40,7 +40,7 @@ function openNavChildren(event) {
   //   console.log(id.split(" "));
 
 
-  function stringify(id) {
+  function stringify(str) {
     return (str.split(' ')
             .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
             .join(' '));
@@ -49,7 +49,7 @@ function openNavChildren(event) {
 
 
 
-    var element = document.getElementById(str);
+    var element = document.getElementById(stringify(id));
     //   console.log("it clicks like the Khoisan");
     console.log(element);
 
