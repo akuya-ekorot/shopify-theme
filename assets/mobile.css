@@ -59,7 +59,7 @@
   }
   
   .cart-checkout, .update-cart {
-    align-self: center;
+    align-self: stretch;
   }
   
   .nav-alert {
