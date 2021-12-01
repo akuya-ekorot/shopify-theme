@@ -21,7 +21,7 @@ body {
  }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 485px) {
  .cart-icon {
    right: 20vw;
    top: 15px;
