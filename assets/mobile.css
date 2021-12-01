@@ -63,7 +63,7 @@
     align-self: stretch;
   }
   
-  .cart-subtotal-entry, .cart-cart-total-entry {
+  .cart-subtotal-entry, .cart-cart-total-entry, .cart-discount-entry {
     gap: 15px;
   }
   
