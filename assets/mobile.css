@@ -38,6 +38,10 @@
     width: 25px;
   }
   
+  .cart-item-variant-container {
+    font-size: smaller;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
