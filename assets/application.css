@@ -163,6 +163,9 @@ a {
   flex-direction: row;
   gap: 15px;
   text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0 30px;
 }
 
 .about-us-container {
