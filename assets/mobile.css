@@ -79,7 +79,6 @@
   }
 
   .nav {
-    margin-top: 50px;
     padding: 5px;
     gap: 5px;
     flex-direction: row;
@@ -171,7 +170,7 @@
   /* 	BODY */
 
   .body {
-    margin-top: 1vh;
+    margin-top: 90px;
   }
 
   .section-heading-container {
