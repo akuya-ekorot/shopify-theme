@@ -48,10 +48,10 @@ function openNavChildren(event) {
     .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
     .join(' ')
 
-  )
+  );
 
-  var element = document.getElementById(id);
-  console.log("it clicks like the Khoisan");
+  var element = document.getElementById(str);
+//   console.log("it clicks like the Khoisan");
 
   if (element.style.display == "flex") {
     element.style.display = "none";
