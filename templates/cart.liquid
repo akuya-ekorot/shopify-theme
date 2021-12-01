@@ -53,14 +53,12 @@
         <span class="cart-subtotal-name">Sub Total</span>
         <span class="cart-subtotal-price">{{ cart.original_total_price | money }}</span>
       </div>
-      {% if cart.discount_applications.size > 0 %}
       {% for discount_application in cart.discount_applications.size %}
       <div class="cart-subtotal-entry">
         <span class="cart-subtotal-name">{{ discount_application.title }}</span>
         <span class="cart-subtotal-price">{{ discount_application.value | money }}</span>
       </div>
       {% endfor %}
-      {% endif %}
     </div>
     <div class="cart-action">
       <button class="update-cart" name="update" type="submit">UPDATE CART</button>
