@@ -20,6 +20,10 @@
     padding: 10px 0;
   }
   
+  .cart-item {
+    gap: 15px;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
