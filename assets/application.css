@@ -11,7 +11,7 @@ body {
 .cart-icon {
   position: absolute;
   font-size: 2rem;
-  right: calc(50vw + 20px);
+  right: calc(50vw - 920px);
   top: 20px;
 }
 
