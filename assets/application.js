@@ -43,7 +43,6 @@ function openNavChildren(event) {
   var str = id;
 
   console.log(
-
     str.split(' ')
     .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
     .join(' ')
