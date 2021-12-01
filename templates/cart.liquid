@@ -56,7 +56,11 @@
       {% for discount_application in cart.discount_applications %}
       <div class="cart-subtotal-entry">
         <span class="cart-subtotal-name">{{ discount_application.title }}</span>
+        {% if discount_application.value_type == "fixed_amount" %}
         <span class="cart-subtotal-price">{{ discount_application.value | money }}</span>
+        {% else %}
+        <span class="cart-subtotal-price">{{ discount_application.value }}%</span>
+        {% endif %}
       </div>
       {% endfor %}
     </div>
