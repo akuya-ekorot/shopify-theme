@@ -3,6 +3,11 @@
 }
 
 @media only screen and (max-width: 485px) {
+  
+  .cart-icon {
+    right: 15vw;
+  }
+  
   .nav-alert {
 
   }
