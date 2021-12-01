@@ -24,8 +24,6 @@ body {
 
 @media only screen and (max-width: 768px) {
   .cart-icon {
-    right: 20vw;
-    top: 15px;
   }
 }
 
@@ -86,7 +84,7 @@ a {
   text-align: center;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: -15px;
   z-index: 1;
 }
 
