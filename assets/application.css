@@ -8,6 +8,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.cart-icon {
+  position: absolute;
+  font-size: larger;
+}
+
 .hamburger-icon {
   display: none;
 }
