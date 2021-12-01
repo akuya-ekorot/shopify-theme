@@ -507,7 +507,7 @@ a {
   padding: 60px 0 0;
 }
 
-.cart-discount-entry, .cart-subtotal-entry, cart-cart-total-entry {
+.cart-discount-entry, .cart-subtotal-entry, .cart-cart-total-entry {
   display: flex;
   flex-direction: row;
 }
