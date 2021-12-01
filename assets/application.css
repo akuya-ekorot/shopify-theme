@@ -10,7 +10,9 @@ body {
 
 .cart-icon {
   position: absolute;
-  font-size: larger;
+  font-size: large;
+  right: 20px;
+  top: 20px;
 }
 
 .hamburger-icon {
