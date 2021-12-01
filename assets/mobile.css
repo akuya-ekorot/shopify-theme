@@ -16,6 +16,10 @@
     right: 20vw;
   }
   
+  .cart-table-entry {
+    padding: 10px 0;
+  }
+  
   .nav-alert {
 	font-size: smaller;
     padding: 5px;
