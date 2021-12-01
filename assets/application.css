@@ -15,6 +15,10 @@ body {
   top: 40px;
 }
 
+.cart-icon-indicator {
+  font-size: small;
+}
+
 .hamburger-icon {
   display: none;
 }
