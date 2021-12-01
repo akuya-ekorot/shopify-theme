@@ -36,6 +36,8 @@ function openNavChildren(event) {
   console.log(a);
   var id = a.parentElement.parentElement.firstChild.nextSibling.innerText;
   console.log(id);
+  
+  console.log(id.split(" "));
 
   var element = document.getElementById(id);
     console.log("it clicks like the Khoisan");
