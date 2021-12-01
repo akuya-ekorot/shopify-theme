@@ -24,11 +24,11 @@
     </a>
     <section class="nav">
       
-      <div class="cart-icon">
+      <a href="{{ cart.url }}" class="cart-icon">
         {% if cart.items.size > 0 %}
         <div class="cart-icon-indicator">
           {{ cart.items.size }}
-        </div>
+        </a>
         {% endif %}
         <i class="fas fa-shopping-bag"></i>        
       </div>
