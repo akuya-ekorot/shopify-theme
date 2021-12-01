@@ -19,6 +19,7 @@ body {
   font-size: small;
   position: absolute;
   background-color: white;
+  z-index: 2;
 }
 
 .hamburger-icon {
