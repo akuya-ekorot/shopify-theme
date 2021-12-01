@@ -4,6 +4,10 @@
 
 @media only screen and (max-width: 485px) {
   
+  .cart {
+    gap: 30px;
+  }
+  
   .cart-icon {
     right: 20vw;
   }
