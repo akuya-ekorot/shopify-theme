@@ -41,7 +41,7 @@
         <h2>How to measure your wrist size</h2>
         <ol>
           <li>Grab a tape measure or a paper/string and ruler.</li>
-          
+
           {% if product.title contains "Cuff" %}
           <li>Measure the smallest part of your wrist with no allowance. <strong><em>(Part A)</em></strong></li>
           <li>Measure 4 inches or 10 centimeters from the smallest part of your wrist towards the elbow, with no allowance. <strong><em>(Part B)</em></strong></li>
@@ -78,9 +78,20 @@
                  required
                  />
         </div>
-        
+        <div class="product-wrist-size">
+          <label>Unit</label>
+          <select class="product-wrist-size-input" name="attributes[units]">
+            <option value="centimeters">
+              cm
+            </option>
+            <option value="inches">
+              in
+            </option>
+          </select>
+        </div>
+
         {% elsif product.title contains "Ngozi" %}
-        
+
         <div>
         </div>
 
@@ -97,10 +108,6 @@
                  required
                  />
         </div>
-
-        {% endif %}
-
-
         <div class="product-wrist-size">
           <label>Unit</label>
           <select class="product-wrist-size-input" name="attributes[units]">
@@ -112,6 +119,8 @@
             </option>
           </select>
         </div>
+
+        {% endif %}
       </div>
       <div class="product-options">
         <div class="product-variant">
