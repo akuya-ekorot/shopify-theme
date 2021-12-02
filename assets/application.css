@@ -182,8 +182,8 @@ a {
   margin: 0 auto;
 }
 
-.section-description br {
-  height: 10px;
+.section-description p {
+  margin: 0 0.5em;
 }
 
 .section-heading {
