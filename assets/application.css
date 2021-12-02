@@ -183,6 +183,10 @@ a {
   margin: 0 auto;
 }
 
+.section-description br {
+  height: 10px;
+}
+
 .section-heading {
   text-transform: uppercase;
   letter-spacing: .2rem;
