@@ -1,6 +1,13 @@
 {
-  "current": "Default",
+  "current": {
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#000000",
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
-    "Default": { }
+    "Default": {
+    }
   }
 }
