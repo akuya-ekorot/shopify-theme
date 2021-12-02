@@ -169,6 +169,10 @@ a {
   flex: 1;
 }
 
+.about-us-container .section-heading {
+  margin:15px;
+}
+
 .section-heading-container {
   display: flex;
   flex-direction: row;
