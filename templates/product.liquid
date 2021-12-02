@@ -25,6 +25,11 @@
     <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
     {{ product.description }}
 
+    {% if product.title contains "Ngozi" %}
+
+
+    {% else %}
+
     <div class="size-guide-container">
       <div class="size-guide-animation-container">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -51,10 +56,12 @@
         </ol>
       </div>
     </div>
-    <form class="product-options-action-container" action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
-      <div class="product-options">
 
-        {% if product.title contains "Cuff" %}
+    {% endif %}
+    <form class="product-options-action-container" action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
+
+      {% if product.title contains "Cuff" %}
+      <div class="product-options">
 
         <div class="product-wrist-size">
           <label>Size at A</label>
@@ -120,8 +127,8 @@
           </select>
         </div>
 
-        {% endif %}
       </div>
+      {% endif %}
       <div class="product-options">
         <div class="product-variant">
           <p>Choose Variant</p>
