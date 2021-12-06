@@ -14,9 +14,6 @@ body {
   font-size: 2.2rem;
   right: calc(50vw - 460px);
   top: 30px;
-  background-color: black;
-  color: white;
-  border-radius: 15px;
 }
 
 .nav-contact {
@@ -24,6 +21,9 @@ body {
   position: absolute;
   top: 45px;
   right: calc(50vw - 400px);
+  background-color: black;
+  color: white;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 960px) {
