@@ -5,6 +5,11 @@
     top: 15px;
   }
   
+  .nav-contact {
+    font-size: smaller;
+    right: 20vw;
+  }
+  
   .nav {
     padding: 5px;
     gap: 5px;
