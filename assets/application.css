@@ -24,6 +24,7 @@ body {
   background-color: black;
   color: white;
   border-radius: 5px;
+  padding: 5px;
 }
 
 @media only screen and (max-width: 960px) {
