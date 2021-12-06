@@ -108,6 +108,10 @@ a {
   object-fit: contain;
 }
 
+.nav-contact {
+  background-color: red;
+}
+
 .nav-menu {
   display: flex;
   flex-direction: row;
