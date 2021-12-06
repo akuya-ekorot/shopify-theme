@@ -27,6 +27,10 @@ body {
   .cart-icon {
     right: 5vw;
   }
+  
+  .nav-contact {
+    right: 6vw;
+  }
 }
 
 @media only screen and (max-width: 768px) {
