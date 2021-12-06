@@ -17,6 +17,11 @@
     right: 20vw;
   }
   
+  .nav-contact {
+    font-size: smaller;
+    padding: 10px;
+  }
+  
   .cart-table-entry {
     padding: 10px 0;
     gap: 15px;
