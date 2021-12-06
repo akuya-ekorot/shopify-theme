@@ -16,6 +16,13 @@ body {
   top: 30px;
 }
 
+.nav-contact {
+  font-weight: bolder;
+  position: absolute;
+  top: 45px;
+  right: calc(50vw - 400px);
+}
+
 @media only screen and (max-width: 960px) {
   .cart-icon {
     right: 5vw;
@@ -108,12 +115,6 @@ a {
   object-fit: contain;
 }
 
-.nav-contact {
-  font-weight: bolder;
-  position: absolute;
-  top: 45px;
-  right: calc(50vw - 400px);
-}
 
 .nav-menu {
   display: flex;
