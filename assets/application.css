@@ -37,11 +37,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .cart-icon {
-  }
-}
-
 
 .cart-icon-indicator {
   font-size: small;
