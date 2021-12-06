@@ -19,7 +19,7 @@ body {
 .nav-contact {
   font-weight: bolder;
   position: absolute;
-  top: 45px;
+  top: 30px;
   right: calc(50vw - 400px);
   background-color: black;
   color: white;
