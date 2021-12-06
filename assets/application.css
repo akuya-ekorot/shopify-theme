@@ -17,7 +17,6 @@ body {
 }
 
 .nav-contact {
-  font-weight: bolder;
   position: absolute;
   top: 30px;
   right: calc(50vw - 400px);
