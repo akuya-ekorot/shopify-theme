@@ -153,6 +153,10 @@
     width: 90%;
     justify-content: center;
   }
+  
+  .product-product-details-container ul li {
+    margin-bottom: 0;
+  }
 
   .product-options-action-container {
     width: 90%;
