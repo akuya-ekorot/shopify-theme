@@ -660,7 +660,7 @@ li {
   color: black;
   font-size: 3rem;
   font-weight: bolder;
-  position: absolute;
+  position: relative;
   padding: 15px;
   border-radius: 5px;
 /*   top: 50%; */
