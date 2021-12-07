@@ -133,6 +133,8 @@
 
       {% endif %}
 
+      {% if product.title contains "Cuff" %}
+
       <div class="product-options">
         <div class="left-or-right">
           <label for="left-or-right">
@@ -150,6 +152,7 @@
             </option>
           </select>
         </div>
+        {% endif %}
       </div>
       <div class="product-options">
         <div class="product-variant">
