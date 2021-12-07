@@ -380,11 +380,13 @@ a {
 .left-or-right {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .left-or-right-input {
   height: 56px;
   border: 1px solid darkgray;
+  
   
 }
 
