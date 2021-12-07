@@ -134,7 +134,7 @@
       {% endif %}
       <div class="product-options">
         <div class="product-variant">
-          <p>Choose Variant</p>
+          <label for="id">Choose Variant</label>
           <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
             {% if variant.available %}
@@ -147,6 +147,19 @@
             </option>
             {% endif %}
             {% endfor %}
+          </select>
+        </div>
+        <div class="left-or-right">
+           <label for="left-or-right">
+             Left or Right Handed
+          </label>
+          <select name="left-or-right">
+            <option>
+              Left
+            </option>
+            <option>
+              Right
+            </option>
           </select>
         </div>
         <div class="product-quantity">
