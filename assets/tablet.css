@@ -139,6 +139,10 @@
     align-items: center;
   }
   
+  .product-product-images-container {
+    align-items: center;
+  }
+  
   .product-options-actions-container {
     width: 90%;
   }
