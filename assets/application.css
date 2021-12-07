@@ -384,7 +384,7 @@ a {
 }
 
 .left-or-right-input {
-  height: 56px;
+  height: 60px;
   border: 1px solid darkgray;
   
   
@@ -397,7 +397,7 @@ a {
 }
 
 .product-quantity-input {
-  height: 56px;
+  height: 60px;
   width: 60px;
   text-align: center;
   border: 1px solid darkgray;
