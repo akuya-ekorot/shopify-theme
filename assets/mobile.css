@@ -80,7 +80,7 @@
   
   .nav-alert {
 	font-size: smaller;
-    padding: 5px;
+    padding: 5px 0;
     position: sticky;
     top: 0;
   }
