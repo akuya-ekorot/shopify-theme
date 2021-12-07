@@ -658,7 +658,7 @@ li {
 .see-more {
   background-color: white;
   color: black;
-  font-size: larger;
+  font-size: 3rem;
   font-weight: bolder;
   position: absolute;
 }
