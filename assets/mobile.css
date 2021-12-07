@@ -265,6 +265,10 @@
   .product-grid {
     margin-bottom: 60px;
   }
+  
+  #price {
+    margin: 15px;
+  }
 
 
 
