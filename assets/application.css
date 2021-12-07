@@ -649,5 +649,11 @@ li {
   margin: 0px
 }
 
+.delivery-notice {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
 
 
