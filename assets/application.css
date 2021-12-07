@@ -661,6 +661,8 @@ li {
   font-size: 3rem;
   font-weight: bolder;
   position: absolute;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 
