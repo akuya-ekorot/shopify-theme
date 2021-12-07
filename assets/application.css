@@ -215,6 +215,10 @@ a {
   justify-items: center;
 }
 
+#price {
+  font-weight: bolder;
+}
+
 .product {
   position: relative;
 }
