@@ -149,6 +149,10 @@
   .product-options-action-container {
     width: 90%;
   }
+  
+  .left-or-right {
+    flex: 1;
+  }
 }
 
 .mobile-nav-menu {
