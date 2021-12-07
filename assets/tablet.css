@@ -151,7 +151,7 @@
     grid-template-columns: repeat(2,200px);
 	gap: 15px;
     width: 90%;
-    align-items: center;
+    justify-content: center;
   }
 
   .product-options-action-container {
