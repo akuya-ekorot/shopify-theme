@@ -30,7 +30,7 @@ body {
   .cart-icon {
     right: 5vw;
   }
-  
+
   .nav-contact {
     right: 12vw;
     top: 30px;
@@ -391,8 +391,8 @@ a {
 .left-or-right-input {
   height: 60px;
   border: 1px solid darkgray;
-  
-  
+
+
 }
 
 .product-quantity {
@@ -653,6 +653,12 @@ li {
   background-color: black;
   color: white;
   padding: 15px;
+}
+
+.see-more {
+  background-color: white;
+  color: black;
+  font-size: larger;
 }
 
 
