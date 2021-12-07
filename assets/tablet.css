@@ -1,16 +1,16 @@
 @media only screen and (max-width: 768px) {
-  
+
   .cart-icon {
     right: 15vw;
     top: 15px;
   }
-  
+
   .nav-contact {
     font-size: smaller;
     right: 22vw;
     top: 20px;
   }
-  
+
   .nav {
     padding: 5px;
     gap: 5px;
@@ -133,19 +133,25 @@
     padding: 0px;
     margin: 100px auto 60px;
   }
-  
+
   .product-product {
     flex-direction: column;
   }
-  
+
   .product-product-images-container {
     align-items: center;
   }
-  
+
   .product-product-details-container {
     align-items: center;
   }
-  
+
+  .product-product-details-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+  }
+
   .product-options-action-container {
     width: 90%;
   }
