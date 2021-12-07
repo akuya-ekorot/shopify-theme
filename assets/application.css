@@ -377,6 +377,11 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+.left-or-right {
+  display: flex;
+  flex-direction: column;
+}
+
 .product-quantity {
   display: flex;
   flex-direction: column;
