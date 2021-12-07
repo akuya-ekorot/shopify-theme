@@ -137,6 +137,10 @@
   .product-product {
     flex-direction: column;
   }
+  
+  .product-options-actions-container {
+    width: 90%;
+  }
 }
 
 .mobile-nav-menu {
