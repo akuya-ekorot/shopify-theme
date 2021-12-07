@@ -382,6 +382,12 @@ a {
   flex-direction: column;
 }
 
+.left-or-right-input {
+  height: 56px;
+  border: 1px solid darkgray;
+  
+}
+
 .product-quantity {
   display: flex;
   flex-direction: column;
