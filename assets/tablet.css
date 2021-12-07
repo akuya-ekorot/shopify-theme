@@ -148,7 +148,7 @@
 
   .product-product-details-container ul {
     display: grid;
-    grid-template-columns: repeat(2,200px);
+    grid-template-columns: repeat(2,250px);
 	gap: 15px;
     width: 90%;
     justify-content: center;
