@@ -24,9 +24,11 @@
     <a href="{{ link.url }}">
       <h2 class="section-heading">{{ link.title }}</h2>
     </a>
-    <!--     <a href="{{ link.url }}">
-<span> See more → </span>
-</a> -->
+    <a href="{{ link.url }}">
+      <div class="see-more">
+        >
+      </div>
+    </a>
   </div>
   <div class="product-grid">
     {% for collection in collections %}
@@ -48,9 +50,6 @@
     {% endfor %}
     {% endif %}
     {% endfor %}
-    <div class="see-more">
-      >
-    </div>
   </div>
 
   {% endif %}
