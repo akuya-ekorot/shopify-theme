@@ -663,6 +663,7 @@ li {
   position: absolute;
   padding: 15px;
   border-radius: 5px;
+  top: -50%;
 }
 
 
