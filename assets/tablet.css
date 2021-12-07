@@ -142,6 +142,10 @@
     align-items: center;
   }
   
+  .product-product-details-container {
+    align-items: center;
+  }
+  
   .product-options-actions-container {
     width: 90%;
   }
