@@ -132,9 +132,32 @@
       </div>
 
       {% endif %}
+
+      {% if product.title contains "Cuff" %}
+
+      <div class="product-options">
+        <div class="left-or-right">
+          <label for="left-or-right">
+            Left/Right Handed
+          </label>
+          <select name="left-or-right" class="left-or-right-input">
+            <option>
+              -
+            </option>
+            <option>
+              Left
+            </option>
+            <option>
+              Right
+            </option>
+          </select>
+        </div>
+      </div>
+
+      {% endif %}
       <div class="product-options">
         <div class="product-variant">
-          <p>Choose Variant</p>
+          <label for="id">Choose Variant</label>
           <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
             {% if variant.available %}
@@ -149,6 +172,7 @@
             {% endfor %}
           </select>
         </div>
+
         <div class="product-quantity">
           <label for="Quantity">Quantity</label>
           <input class="product-quantity-input" type="number" name="quantity" id="Quantity" value="1" min="1">

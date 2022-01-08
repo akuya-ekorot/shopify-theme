@@ -3,11 +3,15 @@
 {% if cart.item_count > 0 %}
 <form action="/cart" method="post" novalidate>
   <section class="cart">
-    <h1 class="cart-heading">Shopping Cart</h1>
+    <div>
+      <h1 class="cart-heading">Shopping Cart</h1>
+<!--       <p class="delivery-notice">
+        Orders made from now up until <strong>December 11th</strong> will be shipped on <strong>December 17th,</strong> right in time for you to have your watch it by Christmas. Thank you for shopping with us.
+      </p> -->
+    </div>
     <div class="cart-table">
       <div class="cart-table-heading">
         <span class="cart-item-heading">ITEM</span>
-<!--         <span class="cart-original-price-heading">UNIT PRICE</span> -->
         <span class="cart-quantity-heading">QUANTITY</span>
         <span class="cart-price-heading">PRICE</span>
       </div>
@@ -35,7 +39,6 @@
             </div>
           </a>
         </div>
-<!--         <span class="cart-original-price">{{ item.original_price | money }}</span> -->
         <div class="cart-quantity">
           <input
                  class="cart-quantity-input"
