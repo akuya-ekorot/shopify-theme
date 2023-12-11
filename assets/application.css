@@ -178,6 +178,8 @@ a {
 
 .about-us-container {
   flex: 1;
+  padding: 16px 0;
+  border-radius: 4px;
 }
 
 .about-us-container .section-heading {
