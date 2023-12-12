@@ -43,14 +43,13 @@
   <div class="product-product-details-container">
     <h1 class="product-product-title">{{ product.title }}</h1>
     <p class="product-product-price" id="price">
-      <span style="text-decoration-line:line-through;margin-right:4px;">{{ current_variant.price | money }}</span>
-      {{ current_variant.price | divided_by: 2 | money }}
+      {{ current_variant.price | money }}
     </p>
     {{ product.description }}
 
     {% if product.title contains 'Ngozi' %}
     {% else %}
-      <div style="display:flex;flex-direction:column;gap:4px;">
+      <!-- <div style="display:flex;flex-direction:column;gap:4px;">
         <div
           style="padding:8px 8px;background-color:black;border-radius:8px;display:flex;justify-content:center;"
         ></div>
@@ -60,7 +59,7 @@
         <div
           style="padding:8px 8px;background-color:green;border-radius:8px;display:flex;justify-content:center;"
         ></div>
-      </div>
+      </div> -->
 
       <div class="size-guide-container">
         <div class="size-guide-animation-container">
@@ -181,7 +180,7 @@
           <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
               {% if variant.available %}
-                <option value="{{ variant.id }}">{{ variant.title }}: {{ variant.price | divided_by: 2 | money }}</option>
+                <option value="{{ variant.id }}">{{ variant.title }}: {{ variant.price | money }}</option>
               {% else %}
                 <option disabled="disabled">{{ variant.title }} - sold out</option>
               {% endif %}
