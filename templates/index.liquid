@@ -18,7 +18,7 @@
 
 <section>
   {% for link in linklists['collection-list'].links %}
-    {% if link.title != "All Products" and link.title != "Ngozi" %}
+    {% if link.title != 'All Products' and link.title != 'Ngozi' %}
       <div class="section-heading-container">
         <a href="{{ link.url }}">
           <h2 class="section-heading">{{ link.title }}</h2>
@@ -43,7 +43,10 @@
                   >
                   <div class="product-details">
                     <p class="product-name">{{ product.title }}</p>
-                    <p class="product-price">{{ product.price | money_with_currency }}</p>
+                    <p class="product-price">
+                      <span style="text-decoration-line:line-through">{{ product.price }}</span>
+                      {{- product.price | divided_by 2 | money_with_currency }}
+                    </p>
                   </div>
                 </div>
               </a>
