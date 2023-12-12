@@ -12,7 +12,7 @@
 
 <section>
   {% for link in linklists.collection-list.links %}
-  {% if link.title != "All Products" %}
+  {% if link.title != "All Products" && link.title != "Ngozi" %}
   <div class="section-heading-container">
     <a href="{{ link.url }}">
       <h2 class="section-heading">{{ link.title }}</h2>
@@ -33,6 +33,7 @@
              src="{{ product | image_url }}"
              alt="{{ product.image.alt }}"
              class="product-image"
+             style="height:261px;width: 261px;"
              />
         <div class="product-details">
           <p class="product-name">{{ product.title }}</p>
