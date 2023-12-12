@@ -44,8 +44,8 @@
                   <div class="product-details">
                     <p class="product-name">{{ product.title }}</p>
                     <p class="product-price">
-                      <span style="text-decoration-line:line-through;margin-right:4px;">{{ product.price }}</span>
-                      {{- product.price | divided_by: 200 | money_with_currency }}
+                      <span style="text-decoration-line:line-through;margin-right:4px;">{{ product.price | divided_by: 100 }}</span>
+                      {{- product.price | divided_by: 2 | money_with_currency }}
                     </p>
                   </div>
                 </div>
