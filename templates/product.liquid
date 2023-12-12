@@ -8,15 +8,34 @@
 
 <div class="product-product">
   <div class="product-product-images-container">
-    <img class="product-featured-image" src="{{ featured_image.src | img_url: 'large' }}" alt="{{ featured_image.alt | escape }}" height="450px" width="450px" id="ProductPhotoImg" />
+    <img
+      class="product-featured-image"
+      src="{{ featured_image.src | img_url: 'large' }}"
+      alt="{{ featured_image.alt | escape }}"
+      height="450px"
+      width="450px"
+      id="ProductPhotoImg"
+    >
     {% for featuredImage in product.images %}
-    <img class="product-featured-image" src="{{ featuredImage.src | img_url: 'large' }}" alt="{{ featuredImage.alt | escape }}" height="450px" width="450px" style="display: none;" />
+      <img
+        class="product-featured-image"
+        src="{{ featuredImage.src | img_url: 'large' }}"
+        alt="{{ featuredImage.alt | escape }}"
+        height="450px"
+        width="450px"
+        style="display: none;"
+      >
     {% endfor %}
     <div class="product-product-images">
       {% for image in product.images %}
-      <a onClick="currentDiv({{ forloop.index }})">
-        <img class="product-product-image" src="{{ image.src | img_url: 'compact' }}" alt="{{ image.alt | escape }}" width="60px">
-      </a>
+        <a onClick="currentDiv({{ forloop.index }})">
+          <img
+            class="product-product-image"
+            src="{{ image.src | img_url: 'compact' }}"
+            alt="{{ image.alt | escape }}"
+            width="60px"
+          >
+        </a>
       {% endfor %}
     </div>
   </div>
@@ -25,150 +44,141 @@
     <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
     {{ product.description }}
 
-    {% if product.title contains "Ngozi" %}
-
-
+    {% if product.title contains 'Ngozi' %}
     {% else %}
-
-    <div class="size-guide-container">
-      <div class="size-guide-animation-container">
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player
-                       class="size-guide-animation"
-                       src="https://assets7.lottiefiles.com/private_files/lf30_zx9gkkoy.json"
-                       background="transparent"
-                       speed="1"
-                       loop
-                       autoplay>
-        </lottie-player>  
+      <div style="display:flex;flex-direction:column;gap:4px;">
+        <div style="padding:8px 8px;background-color:black;border-radius:8px;display:flex;justify-content:center;">
+        </div>
+        <div style="padding:16px 8px;background-color:red;border-radius:8px;display:flex;justify-content:center;">
+          <p style="color: white;font-weight:bold;font-size:24px;">50% OFF Jamhuri Day Discount</p>
+        </div>
+        <div style="padding:8px 8px;background-color:green;border-radius:8px;display:flex;justify-content:center;">
+        </div>
       </div>
-      <div class="size-guide-description">
-        <h2>How to measure your wrist size</h2>
-        <ol>
-          <li>Grab a tape measure or a paper/string and ruler.</li>
 
-          {% if product.title contains "Cuff" %}
-          <li>Measure the smallest part of your wrist with no allowance. <strong><em>(Part A)</em></strong></li>
-          <li>Measure 4 inches or 10 centimeters from the smallest part of your wrist towards the elbow, with no allowance. <strong><em>(Part B)</em></strong></li>
-          {% else %}
-          <li>Measure the smallest part of your wrist with no allowance. <strong><em>(Wrist Size)</em></strong></li>
-          {% endif %}
-        </ol>
+      <div class="size-guide-container">
+        <div class="size-guide-animation-container">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            class="size-guide-animation"
+            src="https://assets7.lottiefiles.com/private_files/lf30_zx9gkkoy.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          >
+          </lottie-player>
+        </div>
+        <div class="size-guide-description">
+          <h2>How to measure your wrist size</h2>
+          <ol>
+            <li>Grab a tape measure or a paper/string and ruler.</li>
+
+            {% if product.title contains 'Cuff' %}
+              <li>
+                Measure the smallest part of your wrist with no allowance. <strong><em>(Part A)</em></strong>
+              </li>
+              <li>
+                Measure 4 inches or 10 centimeters from the smallest part of your wrist towards the elbow, with no
+                allowance. <strong><em>(Part B)</em></strong>
+              </li>
+            {% else %}
+              <li>
+                Measure the smallest part of your wrist with no allowance. <strong><em>(Wrist Size)</em></strong>
+              </li>
+            {% endif %}
+          </ol>
+        </div>
       </div>
-    </div>
-
     {% endif %}
-    <form class="product-options-action-container" action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm">
-
-      {% if product.title contains "Cuff" %}
-      <div class="product-options">
-
-        <div class="product-wrist-size">
-          <label>Size at A</label>
-          <input 
-                 type="number"
-                 step="0.1"
-                 name="attributes[small-wrist-size]"
-                 value="{{ cart.attributes.small-wrist-size }}"
-                 class="product-wrist-size-input"
-                 required
-                 />
+    <form
+      class="product-options-action-container"
+      action="/cart/add"
+      method="post"
+      enctype="multipart/form-data"
+      id="AddToCartForm"
+    >
+      {% if product.title contains 'Cuff' %}
+        <div class="product-options">
+          <div class="product-wrist-size">
+            <label>Size at A</label>
+            <input
+              type="number"
+              step="0.1"
+              name="attributes[small-wrist-size]"
+              value="{{ cart.attributes.small-wrist-size }}"
+              class="product-wrist-size-input"
+              required
+            >
+          </div>
+          <div class="product-wrist-size">
+            <label>Size at B</label>
+            <input
+              type="number"
+              step="0.1"
+              name="attributes[large-wrist-size]"
+              value="{{ cart.attributes.large-wrist-size }}"
+              class="product-wrist-size-input"
+              required
+            >
+          </div>
+          <div class="product-wrist-size">
+            <label>Unit</label>
+            <select class="product-wrist-size-input" name="attributes[units]">
+              <option value="centimeters">cm</option>
+              <option value="inches">in</option>
+            </select>
+          </div>
         </div>
-        <div class="product-wrist-size">
-          <label>Size at B</label>
-          <input 
-                 type="number"
-                 step="0.1"
-                 name="attributes[large-wrist-size]"
-                 value="{{ cart.attributes.large-wrist-size }}"
-                 class="product-wrist-size-input"
-                 required
-                 />
-        </div>
-        <div class="product-wrist-size">
-          <label>Unit</label>
-          <select class="product-wrist-size-input" name="attributes[units]">
-            <option value="centimeters">
-              cm
-            </option>
-            <option value="inches">
-              in
-            </option>
-          </select>
-        </div>
-      </div>
 
-      {% elsif product.title contains "Ngozi" %}
-
-      <div>
-      </div>
+      {% elsif product.title contains 'Ngozi' %}
+        <div></div>
 
       {% else %}
-      <div class="product-options">
-
-        <div class="product-wrist-size">
-          <label>Size at A</label>
-          <input 
-                 type="number"
-                 step="0.1"
-                 name="attributes[wrist-size]"
-                 value="{{ cart.attributes.wrist-size }}"
-                 class="product-wrist-size-input"
-                 required
-                 />
+        <div class="product-options">
+          <div class="product-wrist-size">
+            <label>Size at A</label>
+            <input
+              type="number"
+              step="0.1"
+              name="attributes[wrist-size]"
+              value="{{ cart.attributes.wrist-size }}"
+              class="product-wrist-size-input"
+              required
+            >
+          </div>
+          <div class="product-wrist-size">
+            <label>Unit</label>
+            <select class="product-wrist-size-input" name="attributes[units]">
+              <option value="centimeters">cm</option>
+              <option value="inches">in</option>
+            </select>
+          </div>
         </div>
-        <div class="product-wrist-size">
-          <label>Unit</label>
-          <select class="product-wrist-size-input" name="attributes[units]">
-            <option value="centimeters">
-              cm
-            </option>
-            <option value="inches">
-              in
-            </option>
-          </select>
-        </div>
-
-      </div>
-
       {% endif %}
 
-      {% if product.title contains "Cuff" %}
-
-      <div class="product-options">
-        <div class="left-or-right">
-          <label for="left-or-right">
-            Left/Right Handed
-          </label>
-          <select name="left-or-right" class="left-or-right-input">
-            <option>
-              -
-            </option>
-            <option>
-              Left
-            </option>
-            <option>
-              Right
-            </option>
-          </select>
+      {% if product.title contains 'Cuff' %}
+        <div class="product-options">
+          <div class="left-or-right">
+            <label for="left-or-right"> Left/Right Handed </label>
+            <select name="left-or-right" class="left-or-right-input">
+              <option>-</option>
+              <option>Left</option>
+              <option>Right</option>
+            </select>
+          </div>
         </div>
-      </div>
-
       {% endif %}
       <div class="product-options">
         <div class="product-variant">
           <label for="id">Choose Variant</label>
           <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
-            {% if variant.available %}
-            <option value="{{ variant.id }}">
-              {{ variant.title }}:  {{ variant.price | money }}
-            </option>
-            {% else %}
-            <option disabled="disabled">
-              {{ variant.title }} - sold out
-            </option>
-            {% endif %}
+              {% if variant.available %}
+                <option value="{{ variant.id }}">{{ variant.title }}: {{ variant.price | money }}</option>
+              {% else %}
+                <option disabled="disabled">{{ variant.title }} - sold out</option>
+              {% endif %}
             {% endfor %}
           </select>
         </div>
