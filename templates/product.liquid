@@ -34,6 +34,7 @@
             src="{{ image.src | img_url: 'compact' }}"
             alt="{{ image.alt | escape }}"
             width="60px"
+            height="60px"
           >
         </a>
       {% endfor %}
@@ -41,19 +42,24 @@
   </div>
   <div class="product-product-details-container">
     <h1 class="product-product-title">{{ product.title }}</h1>
-    <p class="product-product-price" id="price">{{ current_variant.price | money }}</p>
+    <p class="product-product-price" id="price">
+      <span style="text-decoration-line:line-through;margin-right:4px;">{{ current_variant.price | divided_by: 100 }}</span>
+      {{ current_variant.price | divided_by: 2 | money }}
+    </p>
     {{ product.description }}
 
     {% if product.title contains 'Ngozi' %}
     {% else %}
       <div style="display:flex;flex-direction:column;gap:4px;">
-        <div style="padding:8px 8px;background-color:black;border-radius:8px;display:flex;justify-content:center;">
-        </div>
+        <div
+          style="padding:8px 8px;background-color:black;border-radius:8px;display:flex;justify-content:center;"
+        ></div>
         <div style="padding:16px 8px;background-color:red;border-radius:8px;display:flex;justify-content:center;">
           <p style="color: white;font-weight:bold;font-size:24px;">50% OFF Jamhuri Day Discount</p>
         </div>
-        <div style="padding:8px 8px;background-color:green;border-radius:8px;display:flex;justify-content:center;">
-        </div>
+        <div
+          style="padding:8px 8px;background-color:green;border-radius:8px;display:flex;justify-content:center;"
+        ></div>
       </div>
 
       <div class="size-guide-container">
