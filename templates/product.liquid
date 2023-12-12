@@ -181,7 +181,7 @@
           <select class="product-variant-select" name="id" id="productSelect">
             {% for variant in product.variants %}
               {% if variant.available %}
-                <option value="{{ variant.id }}">{{ variant.title }}: {{ variant.price | money }}</option>
+                <option value="{{ variant.id }}">{{ variant.title }}: {{ variant.price | divided_by: 2 | money }}</option>
               {% else %}
                 <option disabled="disabled">{{ variant.title }} - sold out</option>
               {% endif %}
