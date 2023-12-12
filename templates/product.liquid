@@ -43,7 +43,7 @@
   <div class="product-product-details-container">
     <h1 class="product-product-title">{{ product.title }}</h1>
     <p class="product-product-price" id="price">
-      <span style="text-decoration-line:line-through;margin-right:4px;">{{ current_variant.price | divided_by: 100 }}</span>
+      <span style="text-decoration-line:line-through;margin-right:4px;">{{ current_variant.price | money }}</span>
       {{ current_variant.price | divided_by: 2 | money }}
     </p>
     {{ product.description }}
