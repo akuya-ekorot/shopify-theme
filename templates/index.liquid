@@ -1,54 +1,56 @@
 <div class="hero-container">
   <div class="about-us-container">
-    <h1 class="section-heading">
-      SUED Watches
-    </h1>
+    <h1 class="section-heading">SUED Watches</h1>
     <div class="section-description">
-<p>SUED is a Made in Kenya watch brand founded in 2015.</p>
+      <p>SUED is a Made in Kenya watch brand founded in 2015.</p>
 
-<p>We locally hand craft uniquely-beautiful and statemental Timepieces for both your accessorizing needs and time value.</p>
+      <p>
+        We locally hand craft uniquely-beautiful and statemental Timepieces for both your accessorizing needs and time
+        value.
+      </p>
 
-<p>Promoting the rich African Culture and its contribution to civilization over time is at the heart of our brand.</p>
+      <p>
+        Promoting the rich African Culture and its contribution to civilization over time is at the heart of our brand.
+      </p>
     </div>
   </div>
 </div>
 
 <section>
-  {% for link in linklists.collection-list.links %}
-  {% if link.title != "All Products" && link.title != "Ngozi" %}
-  <div class="section-heading-container">
-    <a href="{{ link.url }}">
-      <h2 class="section-heading">{{ link.title }}</h2>
-    </a>
-    <a href="{{ link.url }}">
-      <div class="see-more">
-        See more →
+  {% for link in linklists['collection-list'].links %}
+    {% if link.title != "All Products" and link.title != "Ngozi" %}
+      <div class="section-heading-container">
+        <a href="{{ link.url }}">
+          <h2 class="section-heading">{{ link.title }}</h2>
+        </a>
+        <a href="{{ link.url }}">
+          <div class="see-more">See more →</div>
+        </a>
       </div>
-    </a>
-  </div>
-  <div class="product-grid">
-    {% for collection in collections %}
-    {% if link.title == collection.title %}
-    {% for product in collection.products limit:3 %}
-    <a class="product" href="{{ product.url }}">
-      <div>
-        <img
-             src="{{ product | image_url }}"
-             alt="{{ product.image.alt }}"
-             class="product-image"
-             style="height:261px;width: 261px;"
-             />
-        <div class="product-details">
-          <p class="product-name">{{ product.title }}</p>
-          <p class="product-price">{{ product.price | money_with_currency}}</p>
-        </div>
+      <div class="product-grid">
+        {% for collection in collections %}
+          {% if link.title == collection.title %}
+            {% for product in collection.products limit: 3 %}
+              <a class="product" href="{{ product.url }}">
+                <div>
+                  <img
+                    src="{{ product | image_url }}"
+                    alt="{{ product.image.alt }}"
+                    class="product-image"
+                    style="height:261px;width: 261px;"
+                    height="260"
+                    width="260"
+                  >
+                  <div class="product-details">
+                    <p class="product-name">{{ product.title }}</p>
+                    <p class="product-price">{{ product.price | money_with_currency }}</p>
+                  </div>
+                </div>
+              </a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
       </div>
-    </a>
-    {% endfor %}
     {% endif %}
-    {% endfor %}
-  </div>
-
-  {% endif %}
   {% endfor %}
 </section>
